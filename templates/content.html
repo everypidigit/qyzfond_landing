@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}{{ title[lang] }} — QYZfond{% endblock %}
+{% block content %}
+<section class="inner-hero"><p class="eyebrow">{{ eyebrow[lang] }}</p><h1>{{ title[lang] }}</h1></section>
+<section class="inner-content">
+{% if page == 'profidence' %}
+  <div class="inner-lead"><p>professional + confidence</p><h2>proﬁdence — {% if lang == 'en' %}professional confidence{% elif lang == 'kk' %}кәсіби сенімділік{% else %}профессиональная уверенность{% endif %}</h2></div>
+  <div class="inner-grid"><p>{% if lang == 'en' %}Not self-esteem, but a state built through real professional experience.{% elif lang == 'kk' %}Бұл өзін-өзі бағалау емес, нақты кәсіби тәжірибе арқылы қалыптасатын күй.{% else %}Не самооценка, а состояние, которое растёт из реального профессионального опыта.{% endif %}</p><blockquote>{% if lang == 'en' %}Knowledge becomes action. Action becomes experience.{% elif lang == 'kk' %}Білім әрекетке айналады. Әрекет — тәжірибеге.{% else %}Знания становятся действиями. Действия — опытом.{% endif %}</blockquote></div>
+{% elif page == 'gala' %}
+  <div class="placeholder-block"><span>QYZfond Gala</span><h2>{% if lang == 'en' %}An evening about results, people and the next step.{% elif lang == 'kk' %}Нәтижелер, адамдар және келесі қадам туралы кеш.{% else %}Вечер о результатах, людях и следующем шаге.{% endif %}</h2><p>{% if lang == 'en' %}Date, venue, programme, partners and registration link will appear after client approval.{% elif lang == 'kk' %}Күні, орны, бағдарламасы, серіктестері және тіркелу сілтемесі тапсырыс беруші бекіткеннен кейін жарияланады.{% else %}Дата, место, программа, партнёры и ссылка на регистрацию появятся после утверждения заказчиком.{% endif %}</p><button class="button" disabled>{% if lang == 'en' %}Registration coming soon{% elif lang == 'kk' %}Тіркелу жақында ашылады{% else %}Регистрация скоро{% endif %}</button></div>
+{% elif page == 'safeguarding' %}
+  <div class="document-copy"><h2>{% if lang == 'en' %}A safe environment is part of professional growth.{% elif lang == 'kk' %}Қауіпсіз орта — кәсіби өсудің бір бөлігі.{% else %}Безопасная среда — часть профессионального роста.{% endif %}</h2><p>{% if lang == 'en' %}The current approved safeguarding policy remains available while the QYZfond edition is being prepared.{% elif lang == 'kk' %}QYZfond редакциясы дайындалып жатқанда, қолданыстағы бекітілген қауіпсіздік саясаты қолжетімді.{% else %}Пока редакция QYZfond готовится, остаётся доступной действующая утверждённая политика безопасности.{% endif %}</p><a class="button" href="https://kazfond.kz/wp-content/uploads/2024/08/Politika-Bezopasnosti-2024.pdf" target="_blank">PDF ↗</a></div>
+{% else %}
+  <div class="document-copy"><h2>{% if lang == 'en' %}Document pending approval{% elif lang == 'kk' %}Құжат бекітуді күтуде{% else %}Документ ожидает утверждения{% endif %}</h2><p>{% if lang == 'en' %}The approved legal text will be published here once supplied by the client.{% elif lang == 'kk' %}Тапсырыс беруші ұсынғаннан кейін бекітілген заң мәтіні осы жерде жарияланады.{% else %}Согласованный юридический текст будет опубликован здесь после передачи заказчиком.{% endif %}</p><a class="text-link" href="mailto:info@qyzfond.org">info@qyzfond.org ↗</a></div>
+{% endif %}
+</section>
+{% endblock %}
+
