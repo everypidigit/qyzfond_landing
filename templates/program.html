@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}{{ program.name }} — QYZfond{% endblock %}
+{% block content %}
+<section class="program-hero program-{{ program.color }}">
+  <div><p class="eyebrow light">QYZfond · программа</p><h1>{{ program.name }}</h1><p>{{ program.tagline }}</p></div>
+  <img src="/static/images/programs/{{ program.image }}" alt="Участницы {{ program.name }}" fetchpriority="high">
+</section>
+<section class="program-content">
+  <aside><span>Для кого</span><strong>{{ program.audience }}</strong><span>Формат</span><strong>{{ program.format }}</strong></aside>
+  <article><h2>Знания превращаются в практику.</h2><p>{{ program.description }}</p><div class="program-result"><span>Результат</span><p>{{ program.result }}</p></div><a class="button" href="mailto:info@qyzfond.org?subject={{ program.name }}">Узнать об участии →</a></article>
+</section>
+<section class="program-back"><a class="text-link" href="/#projects">← Все программы QYZfond</a></section>
+{% endblock %}

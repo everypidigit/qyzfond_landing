@@ -9,7 +9,7 @@
   <meta property="og:description" content="Новое имя фонда с более чем 25-летней историей. Развиваем женщин. Развиваем общество.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="/static/og-cover.svg">
-  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/static/images/brand/mark.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -18,10 +18,7 @@
 <body>
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header" id="top">
-    <a href="/?lang={{ lang }}" class="brand" aria-label="QYZfond home">
-      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
-      <span class="brand-name"><b>QYZ</b>fond<small data-i18n="descriptor">Казахстанский Фонд Культурного,<br>Социального и Образовательного Развития</small></span>
-    </a>
+    <a href="/?lang={{ lang }}" class="brand official-brand" aria-label="QYZfond home"><img class="official-logo" src="/static/images/brand/logo-ru.png" data-logo-ru="/static/images/brand/logo-ru.png" data-logo-kk="/static/images/brand/logo-kk.png" data-logo-en="/static/images/brand/logo-en.png" alt="QYZfond"></a>
     <nav class="desktop-nav" aria-label="Main navigation">
       <a href="/#about" data-i18n="nav_about">О нас</a>
       <a href="/#team" data-i18n="nav_team">Команда</a>
@@ -34,7 +31,7 @@
       <div class="languages" aria-label="Language">
         <button data-lang="kk">KZ</button><button data-lang="ru">RU</button><button data-lang="en">EN</button>
       </div>
-      <a class="button button-small" href="/#donate" data-i18n="support">Поддержать</a>
+      <a class="button button-small" href="/#support" data-i18n="support">Поддержать</a>
       <button class="menu-button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
     </div>
     <div class="mobile-menu">
@@ -46,7 +43,7 @@
   <main id="main">{% block content %}{% endblock %}</main>
   <footer>
     <div class="footer-top">
-      <a href="#top" class="brand brand-inverse"><span class="brand-mark"><i></i><i></i><i></i><i></i></span><span class="brand-name"><b>QYZ</b>fond</span></a>
+      <a href="#top" class="brand brand-inverse official-brand"><img class="official-logo footer-logo" src="/static/images/brand/logo-white.png" alt="QYZfond"></a>
       <p data-i18n="footer_line">Развиваем женщин.<br>Развиваем общество.</p>
       <div class="footer-links"><a href="/safeguarding" data-i18n="safe">Политика безопасности</a><a href="/oferta" data-i18n="offer">Публичная оферта</a><a href="/notice" data-i18n="notice">Уведомление</a></div>
     </div>

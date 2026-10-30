@@ -13,11 +13,14 @@ from main import app
 
 
 ROOT = Path(__file__).resolve().parent
-PAGES = ("", "gala", "profidence", "safeguarding", "oferta", "notice")
+PAGES = (
+    "", "gala", "profidence", "safeguarding", "oferta", "notice",
+    "programs/kumbel-lab", "programs/impactum", "programs/kumbel-pro", "programs/orkendarium",
+)
 REDIRECTS = {
     "ideathon": "https://qyzfond.org/",
     "politika-bezopasnosti": "safeguarding/",
-    "pozhertvovanija": "#donate",
+    "pozhertvovanija": "#support",
     "dinner": "gala/",
     "about": "#about",
 }
@@ -34,7 +37,11 @@ def rewrite_root_urls(html: str, base_path: str) -> str:
     """Prefix root-relative HTML asset and navigation URLs."""
     if not base_path:
         return html
-    return re.sub(r'(?P<prefix>(?:href|src|content)=["\'])/(?!/)', rf'\g<prefix>{base_path}/', html)
+    return re.sub(
+        r'(?P<prefix>(?:href|src|content|data-logo-(?:ru|kk|en))=["\'])/(?!/)',
+        rf'\g<prefix>{base_path}/',
+        html,
+    )
 
 
 def redirect_document(target: str, base_path: str) -> str:

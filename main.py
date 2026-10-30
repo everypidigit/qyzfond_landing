@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 
 from fastapi import FastAPI, Request
@@ -12,6 +13,42 @@ app.mount("/static", StaticFiles(directory=BASE_DIR / "static"), name="static")
 templates = Jinja2Templates(directory=BASE_DIR / "templates")
 
 SUPPORTED_LANGS = {"ru", "kk", "en"}
+LEGACY_PARTNERS = json.loads((BASE_DIR / "static/data/legacy-partners.json").read_text())
+
+PROGRAMS = {
+    "kumbel-lab": {
+        "name": "Kumbel LAB", "color": "teal", "image": "kumbel-lab.jpg",
+        "tagline": "Расшифровываем таланты. Развиваем женщин.",
+        "audience": "Студентки колледжей Алматы, которые начинают путь в IT.",
+        "format": "9 месяцев · офлайн · русский и казахский",
+        "description": "Практическая программа по мобильной разработке и современным AI-инструментам. Участницы изучают Flutter, Dart, Firebase, Figma и AI-first подход, развивают коммуникацию, тайм-менеджмент и навыки публичных выступлений.",
+        "result": "Каждая участница планирует, создаёт и защищает собственное мобильное приложение.",
+    },
+    "impactum": {
+        "name": "Impactum!", "color": "orange", "image": "impactum.jpg",
+        "tagline": "Запускаем изменения. Развиваем женщин.",
+        "audience": "Студентки колледжей Алматы 16–21 года, которым интересны коммуникации и управление проектами.",
+        "format": "8–9 месяцев · офлайн · русский",
+        "description": "Практическая программа по SMM, контенту, креативным коммуникациям, управлению проектами и социальному воздействию. Участницы работают в командах, меняются ролями и решают задачи реальных клиентов.",
+        "result": "Финал программы — личный кейс и портфолио с реализованными проектами.",
+    },
+    "kumbel-pro": {
+        "name": "Kumbel Pro", "color": "gold", "image": "kumbel-pro.jpg",
+        "tagline": "Совершенствуем мастерство. Развиваем женщин.",
+        "audience": "Педагоги, мастера производственного обучения и руководители организаций ТиПО Казахстана.",
+        "format": "2 месяца · онлайн · 80 академических часов · русский и казахский",
+        "description": "Аккредитованная программа профессионального развития об эмоциональном интеллекте, профилактике выгорания, коммуникации, командной устойчивости и преподавании с опорой на эмоциональные навыки.",
+        "result": "Участники проводят практические тренинги для коллег и распространяют инструменты внутри своих организаций.",
+    },
+    "orkendarium": {
+        "name": "Orkendarium", "color": "pink", "image": "orkendarium.jpg",
+        "tagline": "Открываем потенциал. Развиваем женщин.",
+        "audience": "Женщины и мамы из Алматы и пригорода, которые развивают собственное дело.",
+        "format": "Практические занятия · наставничество · сообщество",
+        "description": "Программа помогает участницам системно развивать бизнес и совмещать предпринимательство с семьёй. В основе — прикладные знания, практика, обмен опытом и поддерживающее профессиональное сообщество.",
+        "result": "Участницы превращают идею или действующий проект в устойчивую модель развития.",
+    },
+}
 
 
 def language(request: Request) -> str:
@@ -29,7 +66,15 @@ def render(request: Request, template: str, **context):
 
 @app.get("/")
 async def home(request: Request):
-    return render(request, "index.html")
+    return render(request, "index.html", legacy_partners=LEGACY_PARTNERS)
+
+
+@app.get("/programs/{slug}")
+async def program(request: Request, slug: str):
+    item = PROGRAMS.get(slug)
+    if not item:
+        return RedirectResponse("/#projects", status_code=302)
+    return render(request, "program.html", program=item)
 
 
 @app.get("/gala")
@@ -104,7 +149,7 @@ async def old_offer():
 
 @app.get("/pozhertvovanija/")
 async def old_donate():
-    return RedirectResponse("/#donate", status_code=301)
+    return RedirectResponse("/#support", status_code=301)
 
 
 @app.get("/dinner/")
