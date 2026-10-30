@@ -1,65 +1,41 @@
 {% extends "base.html" %}
+{% block title %}QYZfond — новое имя фонда с большой историей{% endblock %}
 {% block content %}
-<section class="hero">
-  <div class="hero-copy reveal">
-    <p class="eyebrow" data-i18n="hero_eye">Территория профессионального роста</p>
-    <h1 data-i18n="hero_title">Знания становятся <em>действиями.</em></h1>
-    <p class="hero-lead" data-i18n="hero_text">QYZfond создаёт среду, где девушки и женщины превращают знания в опыт — и развивают proﬁdence, профессиональную уверенность.</p>
-    <div class="hero-actions"><a class="button" href="#projects" data-i18n="explore">Исследовать проекты</a><a class="text-link" href="/profidence" data-i18n="what_prof">Что такое proﬁdence <span>↗</span></a></div>
-  </div>
-  <div class="hero-art" aria-label="QYZfond programs">
-    <div class="orbit orbit-one"><span>Kumbel Pro</span></div><div class="orbit orbit-two"><span>Impactum!</span></div>
-    <div class="orbit orbit-three"><span>Kumbel LAB</span></div><div class="orbit orbit-four"><span>Orkendarium</span></div>
-    <div class="hero-center"><strong>pro</strong><span>ﬁdence</span></div>
-  </div>
-  <div class="hero-note"><span>01</span><p data-i18n="hero_note">Не благотворительность сверху вниз.<br><b>Инфраструктура для роста.</b></p></div>
+<section class="rebrand-hero" id="about">
+  <img src="/static/images/hero-community.jpg" alt="Участницы и команда образовательных программ фонда" fetchpriority="high"><div class="rebrand-shade"></div>
+  <div class="rebrand-copy"><p class="eyebrow light" data-i18n="new_name">Мы сменили имя. Новый бренд фонда с большой историей.</p><h1 data-i18n="we_qyz">Мы — <em>QYZfond.</em></h1><h2 data-i18n="develop">Развиваем женщин.<br>Развиваем общество.</h2><p data-i18n="rebrand_intro">QYZfond — Казахстанский фонд культурного, социального и образовательного развития. Ранее Kazfond / KFCSED.</p><p data-i18n="rebrand_story">Мы обновили бренд, оставив самое важное в названии. QYZ — это девушка. Именно ради неё мы работаем уже больше 25 лет.</p><div class="hero-actions"><a class="button button-light" href="#history" data-i18n="our_history">Наша история</a><a class="text-link light" href="#events" data-i18n="nearest">Ближайшие события</a><a class="text-link light" href="#reports" data-i18n="reports">Отчёты</a></div></div>
+  <div class="rebrand-stamp"><span>1999</span><span>→</span><strong>2026</strong></div>
 </section>
 
-<section class="statement" id="about">
-  <p class="section-index">01 / <span data-i18n="about_us">О нас</span></p>
-  <div><h2 data-i18n="territory">Мы не пирамида.<br><em>Мы — территория.</em></h2><p data-i18n="territory_text">Место, куда входят, где проходят путь и откуда выходят другими. Здесь наставницы, практика, реальные задачи и компании-партнёры создают систему для роста.</p></div>
+<section class="team-v2" id="team">
+  <div class="v2-heading"><p class="section-index">01 / QYZteam</p><div><h2 data-i18n="team_title">Мы строим фонд<br>вместе.</h2><p data-i18n="team_intro">У каждой своя экспертиза. У всех одна задача — создавать программы, в которых опыт становится профессиональной уверенностью.</p></div></div>
+  <div class="people-grid">
+    <article><img src="/static/images/team/aigerim.jpg" alt="Айгерим Кубеева" loading="lazy"><div><h3>Айгерим Кубеева</h3><p data-i18n="ops">Руководитель операционной деятельности</p><blockquote data-i18n="aigerim_quote">«Собираю сильные идеи в работающую систему».</blockquote></div></article>
+    <article><img src="/static/images/team/yana.jpg" alt="Яна Кощук" loading="lazy"><div><h3>Яна Кощук</h3><p data-i18n="comms">Советник по стратегическим коммуникациям</p><blockquote data-i18n="yana_quote">«Помогаю фонду говорить ясно и по делу».</blockquote></div></article>
+    <article><img src="/static/images/team/anastasia.jpg" alt="Анастасия Бунакова" loading="lazy"><div><h3>Анастасия Бунакова</h3><p>Impactum! · <span data-i18n="coordinator">Координатор</span></p><blockquote data-i18n="anastasia_quote">«Превращаю обучение в реальные проекты».</blockquote></div></article>
+    <article><img src="/static/images/team/zhanna.jpg" alt="Жанна Цой" loading="lazy"><div><h3>Жанна Цой</h3><p>Kumbel LAB · <span data-i18n="coordinator">Координатор</span></p><blockquote data-i18n="zhanna_quote">«Создаю вход в технологии для тех, кто готов пробовать».</blockquote></div></article>
+  </div><p class="editorial-note" data-i18n="quote_note">Личные цитаты — рабочая редакция; перед публикацией их подтвердит команда.</p>
 </section>
 
-<section class="path" aria-label="How it works">
-  <article><span>01</span><div class="path-icon">↘</div><h3 data-i18n="entry">Точка входа</h3><p data-i18n="entry_t">У каждой программы — своя дверь и своя аудитория.</p></article>
-  <article><span>02</span><div class="path-icon">✦</div><h3 data-i18n="practice">Практика</h3><p data-i18n="practice_t">Реальные задачи, инструменты профессии и наставницы.</p></article>
-  <article><span>03</span><div class="path-icon">○</div><h3>proﬁdence</h3><p data-i18n="prof_t">Уверенность, которая растёт из опыта, а не из похвалы.</p></article>
-  <article><span>04</span><div class="path-icon">↗</div><h3 data-i18n="community">Сообщество</h3><p data-i18n="community_t">Выпускницы возвращаются как наставницы и амбассадоры.</p></article>
-</section>
+<section class="events-v2" id="events"><div class="v2-heading inverse"><p class="section-index">02 / <span data-i18n="events">События</span></p><div><span class="soon-pill" data-i18n="soon_label">Скоро</span><h2 data-i18n="meet_offline">Встречаемся<br>не только онлайн.</h2></div></div><div class="event-row"><div class="event-date"><strong>—</strong><span data-i18n="date_pending">Дата уточняется</span></div><div class="event-info"><span>Almaty · offline</span><h3 data-i18n="gala_partner">Гала-ужин для партнёров фонда</h3><p data-i18n="gala_desc">Вечер о результатах, людях и следующем шаге QYZfond.</p></div><a class="button button-light" href="/gala" data-i18n="join">Подробнее →</a></div></section>
 
-<section class="projects" id="projects">
-  <div class="section-heading"><p class="section-index">02 / <span data-i18n="programs">Программы</span></p><h2 data-i18n="different_doors">Разные двери.<br>Одна территория.</h2><p data-i18n="project_intro">Каждое направление QYZfond развивает профессиональную уверенность через свой опыт.</p></div>
-  <div class="project-grid">
-    <article class="project gold"><div class="project-symbol">✣</div><span>QYZfond / 01</span><h3>Kumbel Pro</h3><p data-i18n="kp">Совершенствуем мастерство преподавания и развиваем женщин.</p><a href="#contacts" data-i18n="learn">Узнать больше →</a></article>
-    <article class="project orange"><div class="project-symbol">↗</div><span>QYZfond / 02</span><h3>Impactum!</h3><p data-i18n="im">Запускаем изменения через коммуникации, лидерство и реальные проекты.</p><a href="#contacts" data-i18n="learn">Узнать больше →</a></article>
-    <article class="project teal"><div class="project-symbol">◆</div><span>QYZfond / 03</span><h3>Kumbel LAB</h3><p data-i18n="kl">Расшифровываем таланты девушек в STEM и развиваем женщин.</p><a href="#contacts" data-i18n="learn">Узнать больше →</a></article>
-    <article class="project pink"><div class="project-symbol">◌</div><span>QYZfond / 04</span><h3>Orkendarium</h3><p data-i18n="or">Открываем потенциал через практику, знания и сообщество.</p><a href="#contacts" data-i18n="learn">Узнать больше →</a></article>
+<section class="ideathon-v2"><div class="ideathon-copy"><p class="section-index">03 / Ideathon 2026</p><h2 data-i18n="ideas_real">Настоящие задачи.<br>Настоящие решения.</h2><p data-i18n="ideathon_copy">В октябре студентки колледжей Алматы решали задачи настоящих компаний в десяти отраслях — от IT до моды. Они не слушали лекции о бизнесе, а делали его.</p><a class="button" href="https://qyzfond.org/" target="_blank" rel="noreferrer" data-i18n="read_event">О событии ↗</a></div><div class="ideathon-proof"><div><strong>10</strong><span data-i18n="directions">направлений</span></div><div><strong>10</strong><span data-i18n="venues">площадок</span></div><div><strong>5</strong><span data-i18n="event_days">дней работы</span></div><div class="pending-stat"><strong>—</strong><span data-i18n="results_pending">итоги после верификации</span></div></div></section>
+
+<section class="programs-v2" id="projects">
+  <div class="v2-heading"><p class="section-index">04 / <span data-i18n="programs">Программы</span></p><div><h2 data-i18n="your_entry">У каждой<br>свой вход.</h2><p data-i18n="prof_short">Мы верим в proﬁdence — профессиональную уверенность. С ней не рождаются, её нарабатывают каждый раз, когда знание превращается в действие.</p></div></div>
+  <div class="audience-cards">
+    <article class="audience-card teal"><img src="/static/images/programs/kumbel-lab.jpg" alt="Участницы Kumbel LAB на занятии" loading="lazy"><div><span>QYZfond · Kumbel LAB</span><p data-i18n="i_tech">Я студентка, и мне интересны технологии</p><h3>Kumbel LAB</h3><small data-i18n="kl_v2">Куда идти в STEM, с чего начать и кто поможет.</small><a href="https://kazfond.kz/ru/kumbel-lab/" target="_blank" rel="noreferrer" data-i18n="more">Подробнее →</a></div></article>
+    <article class="audience-card orange"><img src="/static/images/programs/impactum.jpg" alt="Участницы Impactum работают над проектом" loading="lazy"><div><span>QYZfond · Impactum!</span><p data-i18n="i_comms">Мне интересны соцсети и управление проектами</p><h3>Impactum!</h3><small data-i18n="im_v2">Лидерство, коммуникации и реальные проекты с компаниями.</small><a href="https://kazfond.kz/ru/projects-impactum/" target="_blank" rel="noreferrer" data-i18n="more">Подробнее →</a></div></article>
+    <article class="audience-card gold"><img src="/static/images/programs/kumbel-pro.jpg" alt="Участницы Kumbel Pro на обучении" loading="lazy"><div><span>QYZfond · Kumbel Pro</span><p data-i18n="i_teacher">Я учитель</p><h3>Kumbel Pro</h3><small data-i18n="kp_v2">Инструменты и поддержка для тех, кто ведёт девочек дальше.</small><a href="https://kazfond.kz/ru/projects-kumbel-pro/" target="_blank" rel="noreferrer" data-i18n="more">Подробнее →</a></div></article>
+    <article class="audience-card pink"><img src="/static/images/programs/orkendarium.jpg" alt="Участницы Orkendarium на занятии" loading="lazy"><div><span>QYZfond · Orkendarium</span><p data-i18n="i_business">У меня своё дело, которое сложно совмещать с материнством</p><h3>Orkendarium</h3><small data-i18n="or_v2">Знания, практика и сообщество.</small><a href="https://kazfond.kz/ru/orkendarium/" target="_blank" rel="noreferrer" data-i18n="more">Подробнее →</a></div></article>
   </div>
 </section>
 
-<section class="numbers">
-  <p class="section-index">03 / <span data-i18n="impact">Воздействие</span></p>
-  <div class="number-intro"><h2 data-i18n="proof">Опыт — лучшее<br>доказательство.</h2><p data-i18n="proof_t">Мы измеряем не обещания, а знания, превращённые в действия. Подтверждённые показатели будут опубликованы после верификации.</p></div>
-  <div class="stat"><strong>10+</strong><span data-i18n="years">лет создаём программы развития</span></div><div class="stat"><strong>4</strong><span data-i18n="active">актуальных направления QYZfond</span></div><div class="stat"><strong>3</strong><span data-i18n="langs">языка общения</span></div>
-</section>
+<section class="history-v2" id="history"><div class="v2-heading inverse"><p class="section-index">05 / <span data-i18n="history">История</span></p><div><h2 data-i18n="years_before">Больше 25 лет<br>до этого дня.</h2><p data-i18n="history_intro">Мы начали в Алматы в 1999 году. С тех пор программы фонда прошли тысячи девушек и женщин. Имя сегодня новое, но опыт за ним прежний.</p></div></div><div class="timeline"><article><strong>1999</strong><span data-i18n="founded">Фонд зарегистрирован в Алматы</span></article><article><strong>2012</strong><span>Kumbel</span></article><article><strong>2015</strong><span>Mayak</span></article><article><strong>2019</strong><span>Kumbel Pro</span></article><article><strong>2022</strong><span>Kumbel LAB</span></article><article><strong>2025</strong><span>Orkendarium</span></article><article class="now"><strong>2026</strong><span data-i18n="became_qyz">Стали QYZfond</span></article></div><div class="history-numbers"><div><strong>3 435</strong><span data-i18n="beneficiaries">участниц и благополучателей</span></div><div><strong>58</strong><span data-i18n="partners_count">партнёров</span></div><div><strong>11</strong><span data-i18n="projects_count">проектов за историю фонда</span></div></div></section>
 
-<section class="team" id="team">
-  <div class="section-heading"><p class="section-index">04 / <span data-i18n="team">Команда</span></p><h2 data-i18n="people">Люди, которые<br>строят территорию.</h2></div>
-  <div class="team-list">
-    <article><span>АК</span><div><h3>Айгерим Кубеева</h3><p data-i18n="ops">Руководитель операционной деятельности</p></div></article>
-    <article><span>ЯК</span><div><h3>Яна Кощук</h3><p data-i18n="comms">Советник по стратегическим коммуникациям</p></div></article>
-    <article><span>АБ</span><div><h3>Анастасия Бунакова</h3><p>Impactum! · <span data-i18n="coordinator">Координатор</span></p></div></article>
-    <article><span>ЖЦ</span><div><h3>Жанна Цой</h3><p>Kumbel LAB · <span data-i18n="coordinator">Координатор</span></p></div></article>
-  </div>
-</section>
+<section class="reports-v2" id="reports"><div><p class="section-index">06 / <span data-i18n="reports">Отчёты</span></p><h2 data-i18n="done_spent">Что сделано.<br>На что потрачено.</h2><p data-i18n="report_open">Мы публикуем отчёты по каждому году. Отчёты за годы до смены имени тоже здесь.</p></div><div class="report-years"><a href="mailto:info@qyzfond.org?subject=Отчёт%202026"><span>2026</span><small data-i18n="on_request">по запросу</small></a><a href="https://kazfond.kz/wp-content/uploads/2025/04/2024.pdf" target="_blank"><span>2024</span><small>PDF ↗</small></a><a href="https://kazfond.kz/ru/about/#reports" target="_blank"><span>2023</span><small>PDF ↗</small></a><a href="https://kazfond.kz/ru/about/#reports" target="_blank"><span>2022</span><small>PDF ↗</small></a><a href="https://kazfond.kz/ru/about/#reports" target="_blank"><span>2011—2021</span><small data-i18n="archive">Архив ↗</small></a></div></section>
 
-<section class="reports" id="reports"><p class="section-index">05 / <span data-i18n="reports">Отчёты</span></p><div><h2 data-i18n="open_results">Открыто о результатах.</h2><p data-i18n="report_t">Ежегодные отчёты фонда доступны на действующем сайте. Архив будет перенесён после передачи файлов.</p><a class="button button-outline" href="https://kazfond.kz/ru/about/#reports" target="_blank" rel="noreferrer" data-i18n="archive">Открыть архив ↗</a></div><div class="years"><span>2024</span><span>2023</span><span>2022</span><span>2011—2021</span></div></section>
+<section class="partners-v2" id="partners"><div class="v2-heading"><p class="section-index">07 / <span data-i18n="partnership">Партнёрство</span></p><div><h2 data-i18n="two_ways">Два способа<br>быть рядом.</h2></div></div><div class="partner-paths"><article><span>01 / <span data-i18n="companies">Компаниям</span></span><h3 data-i18n="meet_generation">Познакомьтесь с поколением, которое завтра придёт к вам работать.</h3><p data-i18n="companies_copy">Присылайте кейсы, участвуйте в менторстве, приглашайте участниц на гостевые лекции, тренинги и стажировки.</p><a class="button" href="mailto:info@qyzfond.org?subject=Стать%20партнёром" data-i18n="be_partner">Стать партнёром →</a></article><article><span>02 / <span data-i18n="people_label">Людям</span></span><h3 data-i18n="support_work">Поддержите работу, которая превращает знания в опыт.</h3><p data-i18n="people_copy">Ваш вклад идёт на исследования и реализацию программ: работу наставников, площадки, материалы и дорогу до них.</p><a class="button" href="mailto:info@qyzfond.org?subject=Поддержать%20QYZfond" data-i18n="support">Поддержать →</a></article></div><div class="partner-strip"><span>Microsoft</span><span>Wolt</span><span>EPAM</span><span>Roca</span><span>Swissôtel</span><span>Mary Kay</span></div></section>
 
-<section class="donate" id="donate">
-  <div class="donate-copy"><p class="section-index">06 / <span data-i18n="partnership">Партнёрство</span></p><h2 data-i18n="build">Строим территорию вместе.</h2><p data-i18n="build_t">Партнёрство с QYZfond — вклад в человеческий капитал. Поддержите программы, где знания становятся практикой, а практика — профессиональной уверенностью.</p></div>
-  <div class="donate-card"><span class="status" data-i18n="soon">Реквизиты готовятся</span><h3 data-i18n="choose">Выберите удобный способ</h3><button disabled>Kaspi</button><button disabled>Halyk</button><button disabled>Freedom</button><p data-i18n="payment_note">Платёжные ссылки и QR-коды появятся после подтверждения заказчиком.</p><a href="/oferta" data-i18n="offer">Публичная оферта</a></div>
-</section>
-
-<section class="contact" id="contacts"><div><p class="eyebrow" data-i18n="contact">Контакты</p><h2 data-i18n="talk">Давайте<br><em>поговорим.</em></h2></div><div class="contact-details"><a href="mailto:info@qyzfond.org">info@qyzfond.org ↗</a><a href="tel:+77272724331">+7 (727) 272 43 31</a><p data-i18n="address">ул. Панфилова, 145<br>Алматы, Казахстан</p></div></section>
+<section class="contact contact-v2" id="contacts"><div><p class="eyebrow" data-i18n="contact">Контакты</p><h2 data-i18n="open_ideas">Всегда открыты<br><em>новым идеям.</em></h2><p data-i18n="media_kit">Для СМИ: пресс-кит с логотипами, справкой и фото готовится к публикации.</p></div><div class="contact-details"><a href="mailto:info@qyzfond.org">info@qyzfond.org ↗</a><a href="tel:+77272724331">+7 (727) 272 43 31</a><p data-i18n="address">ул. Панфилова, 145<br>Алматы, Казахстан</p><a class="button button-light" href="https://instagram.com/qyzfond" target="_blank" rel="noreferrer">Instagram ↗</a></div></section>
 {% endblock %}
-

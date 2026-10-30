@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}QYZfond — Развиваем профессиональную уверенность{% endblock %}</title>
-  <meta name="description" content="QYZfond — территория профессионального роста девушек и женщин Казахстана.">
-  <meta property="og:title" content="QYZfond — территория proﬁdence">
-  <meta property="og:description" content="Знания становятся действиями. Действия — опытом.">
+  <meta name="description" content="QYZfond — новое имя Казахстанского фонда культурного, социального и образовательного развития. Развиваем женщин. Развиваем общество.">
+  <meta property="og:title" content="Мы — QYZfond">
+  <meta property="og:description" content="Новое имя фонда с более чем 25-летней историей. Развиваем женщин. Развиваем общество.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="/static/og-cover.svg">
   <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
@@ -24,9 +24,11 @@
     </a>
     <nav class="desktop-nav" aria-label="Main navigation">
       <a href="/#about" data-i18n="nav_about">О нас</a>
-      <a href="/#projects" data-i18n="nav_projects">Проекты</a>
       <a href="/#team" data-i18n="nav_team">Команда</a>
+      <a href="/#events" data-i18n="events">События</a>
+      <a href="/#projects" data-i18n="nav_projects">Программы</a>
       <a href="/#reports" data-i18n="nav_reports">Отчёты</a>
+      <a href="/#partners" data-i18n="partnership">Партнёрам</a>
     </nav>
     <div class="header-actions">
       <div class="languages" aria-label="Language">
@@ -36,15 +38,16 @@
       <button class="menu-button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
     </div>
     <div class="mobile-menu">
-      <a href="/#about" data-i18n="nav_about">О нас</a><a href="/#projects" data-i18n="nav_projects">Проекты</a>
-      <a href="/#team" data-i18n="nav_team">Команда</a><a href="/#reports" data-i18n="nav_reports">Отчёты</a>
+      <a href="/#about" data-i18n="nav_about">О нас</a><a href="/#team" data-i18n="nav_team">Команда</a>
+      <a href="/#events" data-i18n="events">События</a><a href="/#projects" data-i18n="nav_projects">Программы</a>
+      <a href="/#reports" data-i18n="nav_reports">Отчёты</a><a href="/#partners" data-i18n="partnership">Партнёрам</a>
     </div>
   </header>
   <main id="main">{% block content %}{% endblock %}</main>
   <footer>
     <div class="footer-top">
       <a href="#top" class="brand brand-inverse"><span class="brand-mark"><i></i><i></i><i></i><i></i></span><span class="brand-name"><b>QYZ</b>fond</span></a>
-      <p data-i18n="footer_line">Открываем потенциал.<br>Развиваем женщин.</p>
+      <p data-i18n="footer_line">Развиваем женщин.<br>Развиваем общество.</p>
       <div class="footer-links"><a href="/safeguarding" data-i18n="safe">Политика безопасности</a><a href="/oferta" data-i18n="offer">Публичная оферта</a><a href="/notice" data-i18n="notice">Уведомление</a></div>
     </div>
     <div class="footer-bottom"><span>© 2026 QYZfond</span><a href="mailto:info@qyzfond.org">info@qyzfond.org</a><a href="https://instagram.com/qyzfond" target="_blank" rel="noreferrer">Instagram ↗</a></div>
