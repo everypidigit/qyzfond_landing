@@ -17,7 +17,7 @@ LEGACY_PARTNERS = json.loads((BASE_DIR / "static/data/legacy-partners.json").rea
 
 PROGRAMS = {
     "kumbel-lab": {
-        "name": "Kumbel LAB", "color": "teal", "image": "kumbel-lab.jpg", "logo": "kumbel-lab-logo.jpg",
+        "name": "Kumbel LAB", "color": "teal", "image": "kumbel-lab.jpg", "logo": "kumbel-lab-logo.svg",
         "tagline": "Расшифровываем таланты. Развиваем женщин.",
         "audience": "Студентки колледжей Алматы, которые начинают путь в IT.",
         "format": "9 месяцев · офлайн · русский и казахский",
@@ -26,7 +26,7 @@ PROGRAMS = {
         "facts": ["Запущена в марте 2022 года", "Текущий поток: октябрь 2026 — июнь 2027", "Практические занятия на базе KIMEP до трёх раз в неделю"],
     },
     "impactum": {
-        "name": "Impactum!", "color": "orange", "image": "impactum.jpg", "logo": "impactum-logo.jpg",
+        "name": "Impactum!", "color": "orange", "image": "impactum.jpg", "logo": "impactum-logo.svg",
         "tagline": "Запускаем изменения. Развиваем женщин.",
         "audience": "Студентки колледжей Алматы 16–21 года, которым интересны коммуникации и управление проектами.",
         "format": "8–9 месяцев · офлайн · русский",
@@ -35,7 +35,7 @@ PROGRAMS = {
         "facts": ["Запуск: октябрь 2026 года", "До 30–40 участниц", "Шесть модулей: SMM, коммуникации, управление проектами и социальное воздействие"],
     },
     "kumbel-pro": {
-        "name": "Kumbel Pro", "color": "gold", "image": "kumbel-pro.jpg", "logo": "kumbel-pro-logo.jpg",
+        "name": "Kumbel Pro", "color": "gold", "image": "kumbel-pro.jpg", "logo": "kumbel-pro-logo.svg",
         "tagline": "Совершенствуем мастерство. Развиваем женщин.",
         "audience": "Педагоги, мастера производственного обучения и руководители организаций ТиПО Казахстана.",
         "format": "2 месяца · онлайн · 80 академических часов · русский и казахский",
@@ -44,7 +44,7 @@ PROGRAMS = {
         "facts": ["Запущена в январе 2019 года", "Аккредитованная программа — 80 академических часов", "Для системы технического и профессионального образования Казахстана"],
     },
     "orkendarium": {
-        "name": "Örkendarium", "color": "pink", "image": "orkendarium.jpg", "logo": "orkendarium-logo.png",
+        "name": "Örkendarium", "color": "pink", "image": "orkendarium.jpg", "logo": "orkendarium-logo.svg",
         "tagline": "Открываем потенциал. Развиваем женщин.",
         "audience": "Женщины и мамы из Алматы и пригорода, которые развивают собственное дело.",
         "format": "Практические занятия · наставничество · сообщество",
