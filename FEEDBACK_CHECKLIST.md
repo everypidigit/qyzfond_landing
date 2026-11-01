@@ -1,78 +1,118 @@
-# Final feedback package — 1 November 2026
+# Финальный пакет правок QYZfond — чек-лист
+Дата: 1 ноября 2026 года.
 
-Source: “Сайт QYZfond — финальный пакет правок.docx”. Approved translations are stored in `static/data/site-content.json`. Internal handover checklist; this file is not included in the exported website.
+Источник: «Сайт QYZfond — финальный пакет правок.docx».
+Нумерация соответствует документу заказчика.
 
-## 1. Technical and structural changes
+Обозначения: [x] — выполнено; [ ] — не выполнено или отложено с указанной причиной.
 
-- [x] 1.1: Dedicated RU/KZ/EN pages, language-preserving internal links and language switching. Existing `?lang=en`, `?lang=kk` and `?lang=kz` links also work. Saved language is used when entering through the unlocalized root.
-- [x] 1.2: Gala, all five programs, safeguarding, notice and public offer rendered in three languages.
-- [x] 1.3: Homepage about, SDGs, trustees, team, event date, tracks, statistics, donation details and partner headings translated.
-- [x] 1.4: Localized titles, descriptions, canonical and alternate URLs; absolute JPEG social-preview URL, Open Graph and Twitter metadata. Share `/ru/`, `/kk/` or `/en/` for a preview in the intended language.
-- [x] 1.5: Standalone profidence page removed from routes, export and sitemap; mentions in about/program introduction retained.
-- [x] 1.6: Homepage order and section numbers match the document. Gallery follows programs; continuity text begins history; team follows history.
-- [x] 1.7: Board of Trustees centered.
-- [x] 1.8: Ideathon button still points to qyzfond.org. The event site must receive its own URL before this foundation site replaces it there.
-- [x] 1.9: English “Learn more →”, full legal footer with BIN and both Instagram links added.
+Это рабочий документ для передачи заказчику. Он не отображается на сайте.
 
-## 2–3. Brand, homepage and team
+## 1. Технические и структурные изменения
 
-- [x] Official foundation names, exact slogans and title/description translations from the document.
-- [x] 3.1: New hero copy; a single small rebrand note; continuity block moved to history.
-- [x] 3.2: Approved about text; official UN SDG SVGs for 3/4/5/8/10, English on EN and Russian on RU/KZ, UN link and translated disclaimer.
-- [x] 3.3: Existing team ordered as requested; translated names/roles; Zhanel's Kazakh-language Kumbel LAB role; Олеся spelling; corrected chair's LinkedIn profile.
-- [x] New coordinator cards omitted for now at the user's explicit request on 1 November. Alejandra and Gaukhar are not published with incomplete names or placeholder portraits.
-- [x] 3.4: Revised timeline with 2018 and 2021 entries, Ö spelling, 25+ label, program archive below the timeline.
-- [x] 3.5: 2026 report is non-clickable and labeled “in preparation” in each language; 2024/2025 keep the same auditor PDF.
-- [x] 3.6: Halyk and Kaspi contribution links, bank details and public offer link in three languages. No Freedom Bank button.
-- [x] 3.7: All partner headings translated.
-- [x] 3.8: Both foundation and student-community Instagram links in contacts and footer.
-- [x] 3.9: Gallery “Practice” caption translated; program names retained.
+- [x] 1.1. Созданы отдельные страницы RU/KZ/EN. Выбранный язык сохраняется при переходах и переключении языков. Старые ссылки с параметрами ?lang=en, ?lang=kk и ?lang=kz также поддерживаются.
+- [x] 1.2. Гала-ужин, все пять программ, политика безопасности, уведомление и публичная оферта доступны на трёх языках.
+- [x] 1.3. Переведены блок «О нас», ЦУР, попечительский совет, имена и должности команды, дата гала-ужина, треки Ideathon, подписи статистики, реквизиты и группы партнёров.
+- [x] 1.4. Добавлены картинка-превью в JPEG и заголовки/описания на трёх языках. Для отправки ссылки с превью на нужном языке следует использовать адреса /ru/, /kk/ или /en/.
+- [x] 1.5. Отдельная страница о profidence удалена из сайта, статической сборки и карты сайта. Упоминания подхода в разделах «О нас» и «Программы» сохранены.
+- [x] 1.6. Блоки главной страницы переставлены и пронумерованы по документу. Галерея следует за программами, блок «Мы — те же» перенесён в историю, команда находится ниже истории.
+- [x] 1.7. Попечительский совет выровнен по центру.
+- [x] 1.8. Ссылка на сайт Ideathon пока оставлена на qyzfond.org, как указано в задании.
+- [x] 1.9. В английской версии используется «Learn more →». В футер добавлены полное название фонда с БИН и две ссылки Instagram.
+
+## 2. Название фонда и ключевые сообщения
+
+- [x] Названия фонда на RU/KZ/EN приведены к справочнику из документа.
+- [x] Название бренда пишется QYZfond.
+- [x] Слоганы фонда и программ заменены на утверждённые формулировки.
+- [x] Исправлено написание официального названия фонда на казахском языке.
+- [x] Заголовки вкладки браузера, описания и тексты превью соответствуют языку страницы.
+- [x] Юридические тексты оферты не переводились заново и не переписывались: использованы опубликованные версии фонда.
+
+## 3. Главная страница и команда
+
+- [x] 3.1. Первый экран обновлён по новой схеме: кто мы, чем занимаемся и одна небольшая строка о новом имени. Кнопки и отметка «1999 → 2026» сохранены.
+- [x] 3.1. Блок «Мы — те же, что и всегда» перенесён в начало раздела истории. Казахский текст заменён на утверждённый.
+- [x] 3.2. Тексты «О нас» внесены на трёх языках.
+- [x] 3.2. Установлены официальные иконки ООН для ЦУР 3, 4, 5, 8 и 10: русские для RU/KZ, английские для EN. Добавлены ссылка на ООН и пояснение на языке страницы.
+- [x] 3.3. Заголовок попечительского совета исправлен, имена переведены согласно документу.
+- [x] 3.3. Существующая команда расположена в требуемом порядке. Обновлены имена и должности на RU/KZ/EN, должность Жанель, написание «Олеся» и ссылка LinkedIn председателя.
+- [ ] 3.3. Две новые карточки — Алехандра и Гаухар. ОТЛОЖЕНО по прямой просьбе Данияра от 1 ноября. Для последующего добавления нужны фотографии, полные имена с написанием на RU/KZ/EN и ссылки LinkedIn, если они есть.
+- [x] 3.4. Лента истории обновлена: добавлены корректные события 2018 и 2021 годов, исправлено Örkendarium. Обновлена подпись под 25+.
+- [x] 3.4. Под лентой истории размещён архив программ.
+- [x] 3.5. Отчёт 2026 года сделан без ссылки, с подписью «в подготовке» на языке страницы. Кнопки 2024 и 2025 ведут на общий аудиторский отчёт.
+- [x] 3.6. Добавлены кнопки взноса через Halyk и Kaspi, реквизиты и ссылка на оферту на трёх языках.
+- [x] 3.7. Переведены раскрывающийся список всех партнёров и названия групп.
+- [x] 3.8. В контакты и футер добавлены два Instagram: @kfcsed и @qyzfond, с подписями на языке страницы.
+- [x] 3.9. Подпись «Практика · QYZfond» переведена. Названия программ в подписях галереи сохранены без перевода.
 
 ## 4. Ideathon by QYZfond
 
-- [x] Past-tense approved text, consistent event name, 882 registered students / 56 colleges / 172 projects / 10 tracks, acknowledgments and ten translated tracks.
-- [x] Old video removed; no outdated video presented as a final-results video.
-- [ ] Final video URLs — awaiting the foundation's links via the user.
+- [x] Название приведено к «Ideathon by QYZfond».
+- [x] Утверждённые тексты на трёх языках переведены в прошедшее время.
+- [x] Установлены итоговые показатели: 882 зарегистрированные студентки, 56 колледжей, 172 проекта, 10 треков.
+- [x] Добавлена благодарность 18 бизнес-партнёрам, более чем 50 наставникам и 200 волонтёрам.
+- [x] Показаны все десять треков с переводами; рестораны и гостеприимство разделены.
+- [x] Старое видео удалено.
+- [ ] Итоговые видеоролики. НУЖНЫ ССЫЛКИ ОТ ФОНДА: по документу Мария должна прислать их в Telegram. После получения можно добавить ролики в блок.
 
-## 5. AVANTI gala
+## 5. Гала-ужин AVANTI
 
-- [x] Homepage registration and details links, translated date and location.
-- [x] Event block and navigation automatically hidden from 14 November 2026, Almaty time. Server rendering and static-site browser logic both enforce the cutoff.
-- [x] Approved three-language copy, fund-program cover photo, compact program/menu layout.
-- [x] Registration form, 50,000 ₸ individual contribution, corporate contribution formats, Halyk/Kaspi and partnership email.
-- [x] No ticket/price wording and no telephone link on the gala page.
-- [x] Private partner presentation link and PDF removed from the site. The old PDF remains recoverable through Git history.
-- [ ] Photos from the 13 November gala — foundation will supply these after the event; no past-gala gallery is shown.
+- [x] 5.1. На главной обновлены дата, место, название и описание события на трёх языках.
+- [x] 5.1. Добавлены кнопки регистрации и перехода к подробностям.
+- [x] 5.1. Настроено автоматическое скрытие блока события и соответствующих ссылок с 14 ноября 2026 года по времени Алматы.
+- [x] 5.2. Страница гала-ужина переведена: концепция, вступление, факты, программа, меню и приглашение к участию.
+- [x] 5.2. Вверху страницы размещено большое фото с программ фонда. Галерея прошлых гала-ужинов не создавалась.
+- [x] 5.2. Добавлена регистрационная форма для частных гостей.
+- [x] 5.2. Указан индивидуальный благотворительный взнос 50 000 ₸, корпоративные форматы 250 000 ₸ за четырёх гостей и 500 000 ₸ за восемь гостей.
+- [x] 5.2. Добавлены кнопки взноса через Halyk и Kaspi и письмо для обсуждения партнёрства с темой AVANTI.
+- [x] 5.2. Слова «билет» и «цена» не используются. Телефон на странице гала-ужина не указан.
+- [x] 5.2. Ссылка на закрытую презентацию для партнёров и сам PDF удалены с сайта. Файл при необходимости можно восстановить из истории Git.
+- [ ] Фотографии гала-ужина 13 ноября. БУДУЩЕЕ ОБНОВЛЕНИЕ: фонд предоставит фотографии после мероприятия.
 
-## 6. Programs
+## 6. Программы
 
-- [x] 6.1: Common labels, outcomes, participation links and back links translated.
-- [x] 6.2: College-teacher question updated; Mayak PRO added fourth with purple accent, published logo and photo from kazfond.kz. Five programs in the requested order.
-- [x] 6.3: Kumbel LAB — all approved fields on RU/KZ/EN pages.
-- [x] 6.4: Impactum! — running since 2018; new cohort from October 2026; all approved translations.
-- [x] 6.5: Kumbel PRO — launched 2018; Ustaz PRO accreditation; all approved translations.
-- [x] 6.6: Mayak PRO — new localized page with approved audience, format, curriculum and mentoring outcomes.
-- [x] 6.7: Örkendarium — 2026 results, childcare and two four-week levels, award/support text, direct program-site/application link.
-- [x] 6.8: Three compact archive cards with original Kumbel/Mayak/Mira logos, years, slogans and approved descriptions. No new archive pages.
+- [x] 6.1. Общие подписи, заголовки, результаты, кнопки участия и ссылки назад переведены на RU/KZ/EN.
+- [x] 6.2. Вопрос Kumbel PRO заменён на «Я педагог колледжа» с переводами.
+- [x] 6.2. Добавлена карточка Mayak PRO с фиолетовым акцентом, логотипом и фото со старого сайта фонда.
+- [x] 6.2. Порядок пяти программ: Kumbel LAB, Impactum!, Kumbel PRO, Mayak PRO, Örkendarium.
+- [x] 6.3. Kumbel LAB: внесены утверждённые аудитория, формат, описание, результат и факты на трёх языках.
+- [x] 6.4. Impactum!: указан 2018 год начала работы, поток с октября 2026 года и утверждённые переводы.
+- [x] 6.5. Kumbel PRO: исправлен год запуска на 2018, добавлена аккредитация курса «Ресурсный педагог» на Ustaz PRO.
+- [x] 6.6. Создана страница Mayak PRO на трёх языках с утверждёнными сведениями о наставничестве.
+- [x] 6.7. Örkendarium: обновлены формат, детская комната, результаты 2026 года, награда и сведения о поддержке. Кнопка ведёт на сайт программы для подробностей и заявки.
+- [x] 6.8. Создан архив из трёх небольших карточек Kumbel, Mayak и Mira: оригинальные логотипы, годы, слоганы и описания. Отдельные архивные страницы не создавались.
 
-## 7. Documents
+## 7. Документы
 
-- [x] 7.1: Existing published safeguarding and ethics PDFs downloaded in RU/KZ/EN; published form links retained, including the English participant form.
-- [x] 7.2: Approved fraud notice in three languages.
-- [x] 7.3: Original published public offers imported from kazfond.kz in all three languages, without new translation or rewriting. No fallback notice is needed.
+- [x] 7.1. Для политики безопасности и кодекса этики подключены опубликованные PDF на RU/KZ/EN.
+- [x] 7.1. Сохранены опубликованные ссылки на формы; для английской версии подключена англоязычная анкета участниц.
+- [x] 7.1. Тексты страницы политики безопасности и помощи переведены по документу.
+- [x] 7.2. Официальное предупреждение о мошенничестве опубликовано на трёх языках.
+- [x] 7.3. Подключены исходные публичные оферты фонда на RU/KZ/EN со старого сайта. Новый перевод юридического текста не выполнялся; пояснение о русской версии не требуется, поскольку найдены все три версии.
 
-## Verification
+## Что ещё требуется от заказчика или согласуется отдельно
 
-- [x] Python integration suite: all translated routes, language aliases, internal navigation, homepage order, approved program results, donation/form links, legal PDF selection and removed pages/assets.
-- [x] Chromium: 105 route/language/viewport combinations (320, 375, 768, 1024 and 1440 px), no page overflow or wrapped/clipped program headings.
-- [x] Browser navigation: EN share link → EN program → KZ switch on the same program → saved KZ at root.
-- [x] Export: all 41 generated HTML documents checked for local assets, internal destinations and absolute social-preview metadata.
+- [ ] Итоговые видео Ideathon: фонд должен передать ссылки.
+- [ ] Новые координаторы: добавление отложено Данияром; для возобновления нужны полные имена и фотографии, LinkedIn — при наличии.
+- [ ] Фотографии гала-ужина: фонд передаст их после 13 ноября.
+- [ ] Freedom Bank: фонд должен предоставить платёжную ссылку. До этого кнопку не показываем, как и требуется в документе.
+- [ ] Отдельный адрес Ideathon перед переносом основного сайта на qyzfond.org: согласовать новый адрес и доступ к размещению, затем обновить ссылку. На текущем этапе ссылка оставлена согласно заданию.
+- [ ] Короткая финальная проверка командой фонда: опечатки, имена, мелкие детали и казахский текст носителем языка. Это проверка заказчика, предусмотренная документом.
 
-## Source assets
+## Выполненные проверки
 
-- SDG icons: `https://kazakhstan.un.org/profiles/undg_country/themes/custom/undg/images/SDGs/{ru|en}/SDG-{n}.svg`.
-- Mayak PRO logo/photo: foundation's published `/ru/projects-majak-pro/` page; full-resolution photo used where available.
-- Archive logos: foundation's original published program assets.
-- Public offers: `/ru/oferta/`, `/kk/oferta-3/`, `/en/oferta-2/` on kazfond.kz.
-- Safeguarding/ethics: language-specific links on the foundation's published safeguarding pages.
-- Hero, gallery and existing portraits: previously approved user-supplied assets; retained.
+- [x] Автоматические проверки: переведённые страницы, выбор языка, навигация, порядок разделов, данные программ, ссылки регистрации и взносов, PDF на нужном языке, удалённые страницы и файлы.
+- [x] Проверка в Chromium: 105 сочетаний страницы, языка и ширины экрана — 320, 375, 768, 1024 и 1440 пикселей. Выходов страницы вправо и переносов/обрезки названий программ не обнаружено.
+- [x] Проверка языка в браузере: английская ссылка → английская страница программы → переключение на KZ на той же странице → сохранение KZ при входе на главную.
+- [x] Проверка пути GitHub Pages и автоматического скрытия гала-ужина после указанной даты.
+- [x] Все 41 HTML-документ сборки проверены на локальные файлы, внутренние ссылки и адреса изображений для превью.
+
+## Источники материалов
+
+- Официальные иконки ЦУР: сайт ООН в Казахстане — https://kazakhstan.un.org/.
+- Логотип и фото Mayak PRO: страница https://kazfond.kz/ru/projects-majak-pro/. Использован оригинал фото большего разрешения, доступный на сайте.
+- Архивные логотипы: опубликованные материалы программ фонда.
+- Публичные оферты: страницы /ru/oferta/, /kk/oferta-3/ и /en/oferta-2/ на kazfond.kz.
+- Политики безопасности и кодексы этики: соответствующие языковые версии страниц фонда на kazfond.kz.
+- Главный экран, галерея и существующие портреты: ранее переданные и согласованные материалы из папки Qyzfond_landing_assets.
