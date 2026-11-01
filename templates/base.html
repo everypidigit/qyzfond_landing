@@ -3,53 +3,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% block title %}QYZfond — Развиваем профессиональную уверенность{% endblock %}</title>
-  <meta name="description" content="QYZfond — новое имя Казахстанского фонда культурного, социального и образовательного развития. Развиваем женщин. Развиваем общество.">
-  <meta property="og:title" content="Мы — QYZfond">
-  <meta property="og:description" content="Новое имя фонда с более чем 25-летней историей. Развиваем женщин. Развиваем общество.">
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ c('meta','description') }}">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ c('meta','description') }}">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="/static/og-cover.svg">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:locale" content="{{ {'ru':'ru_RU','kk':'kk_KZ','en':'en_GB'}[lang] }}">
+  <meta property="og:image" content="{{ public_url }}/static/images/og-cover.jpg">
+  <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page_title }}">
+  <meta name="twitter:description" content="{{ c('meta','description') }}">
+  <meta name="twitter:image" content="{{ public_url }}/static/images/og-cover.jpg">
+  <link rel="canonical" href="{{ canonical }}">
+  {% for locale in ['ru','kk','en'] %}<link rel="alternate" hreflang="{{ locale }}" href="{{ public_url }}/{{ locale }}/{{ page_path }}{{ '/' if page_path else '' }}">{% endfor %}
   <link rel="icon" href="/static/images/brand/favicon.jpg" type="image/jpeg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/static/styles.css">
 </head>
-<body>
-  <a class="skip" href="#main">Skip to content</a>
+<body data-lang="{{ lang }}" data-page="{{ page_path }}" data-base="">
+  <a class="skip" href="#main">{{ ui('skip') }}</a>
   <header class="site-header" id="top">
-    <a href="/?lang={{ lang }}" class="brand official-brand" aria-label="QYZfond home"><img class="official-logo" src="/static/images/brand/logo-ru.svg" data-logo-ru="/static/images/brand/logo-ru.svg" data-logo-kk="/static/images/brand/logo-kk.svg" data-logo-en="/static/images/brand/logo-en.svg" alt="QYZfond"></a>
-    <nav class="desktop-nav" aria-label="Main navigation">
-      <a href="/#about" data-i18n="nav_about">О нас</a>
-      <a href="/#team" data-i18n="nav_team">Команда</a>
-      <a href="/#events" data-i18n="events">События</a>
-      <a href="/#projects" data-i18n="nav_projects">Программы</a>
-      <a href="/#reports" data-i18n="nav_reports">Отчёты</a>
-      <a href="/#partners" data-i18n="partnership">Партнёрам</a>
+    <a href="{{ url() }}" class="brand official-brand" aria-label="QYZfond"><img class="official-logo" src="/static/images/brand/logo-{{ lang }}.svg" alt="QYZfond"></a>
+    {% set nav=[('about','nav_about'),('events','events'),('projects','nav_projects'),('team','nav_team'),('reports','nav_reports'),('partners','partnership')] %}
+    <nav class="desktop-nav" aria-label="{{ ui('nav_about') }}">
+      {% for id,key in nav if id!='events' or show_gala %}<a href="{{ url('/#'+id) }}"{% if id=='events' %} data-until="{{ gala_deadline }}"{% endif %}>{{ ui(key) }}</a>{% endfor %}
     </nav>
     <div class="header-actions">
       <div class="languages" aria-label="Language">
-        <button data-lang="kk">KZ</button><button data-lang="ru">RU</button><button data-lang="en">EN</button>
+        {% for locale,label in [('kk','KZ'),('ru','RU'),('en','EN')] %}<a data-lang="{{ locale }}" href="/{{ locale }}/{{ page_path }}{{ '/' if page_path else '' }}" class="{{ 'active' if lang==locale else '' }}" hreflang="{{ locale }}">{{ label }}</a>{% endfor %}
       </div>
-      <a class="button button-small" href="/#support" data-i18n="support">Поддержать</a>
-      <button class="menu-button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      <a class="button button-small" href="{{ url('/#support') }}">{{ ui('support') }}</a>
+      <button class="menu-button" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
     </div>
-    <div class="mobile-menu">
-      <a href="/#about" data-i18n="nav_about">О нас</a><a href="/#team" data-i18n="nav_team">Команда</a>
-      <a href="/#events" data-i18n="events">События</a><a href="/#projects" data-i18n="nav_projects">Программы</a>
-      <a href="/#reports" data-i18n="nav_reports">Отчёты</a><a href="/#partners" data-i18n="partnership">Партнёрам</a>
-    </div>
+    <nav class="mobile-menu">
+      {% for id,key in nav if id!='events' or show_gala %}<a href="{{ url('/#'+id) }}"{% if id=='events' %} data-until="{{ gala_deadline }}"{% endif %}>{{ ui(key) }}</a>{% endfor %}
+    </nav>
   </header>
   <main id="main">{% block content %}{% endblock %}</main>
   <footer>
     <div class="footer-top">
-      <a href="#top" class="brand brand-inverse official-brand"><img class="official-logo footer-logo" src="/static/images/brand/logo-blue-ru.svg" data-logo-ru="/static/images/brand/logo-blue-ru.svg" data-logo-kk="/static/images/brand/logo-blue-kk.svg" data-logo-en="/static/images/brand/logo-blue-en.svg" alt="QYZfond"></a>
-      <p data-i18n="footer_line">Развиваем женщин.<br>Развиваем общество.</p>
-      <div class="footer-links"><a href="/safeguarding" data-i18n="safe">Политика безопасности</a><a href="/oferta" data-i18n="offer">Публичная оферта</a><a href="/notice" data-i18n="notice">Уведомление</a></div>
+      <a href="#top" class="brand brand-inverse official-brand"><img class="official-logo footer-logo" src="/static/images/brand/logo-blue-{{ lang }}.svg" alt="QYZfond"></a>
+      <p>{{ c('slogans','Фонд') }}</p>
+      <div class="footer-links"><a href="{{ url('/safeguarding') }}">{{ ui('safe') }}</a><a href="{{ url('/oferta') }}">{{ ui('offer') }}</a><a href="{{ url('/notice') }}">{{ ui('notice') }}</a>
+        <a href="https://instagram.com/kfcsed" target="_blank" rel="noreferrer">{{ c('instagram','foundation') }}</a><a href="https://instagram.com/qyzfond" target="_blank" rel="noreferrer">{{ c('instagram','students') }}</a></div>
     </div>
-    <div class="footer-bottom"><span>© 2026 QYZfond</span><a href="mailto:info@qyzfond.org">info@qyzfond.org</a><a href="https://instagram.com/qyzfond" target="_blank" rel="noreferrer">Instagram ↗</a></div>
+    <div class="footer-bottom"><span>© 2026 QYZfond · {{ c('foundation','footer') }}</span><a href="mailto:info@qyzfond.org">info@qyzfond.org</a></div>
   </footer>
-  <script>window.INITIAL_LANG = {{ lang|tojson }};</script>
   <script src="/static/app.js" defer></script>
 </body>
 </html>

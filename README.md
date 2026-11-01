@@ -53,6 +53,19 @@ python -m http.server 8001 --directory dist
 Then open http://127.0.0.1:8001. The `dist/` directory is generated and should not
 be committed.
 
-## Before launch
+## Languages and approved content
 
-Replace provisional program copy and team details with client-approved translations; add approved photography and official logo assets; supply gala details, legal documents, annual-report files, donation links/QR codes and bank details; update the Ideathon redirect if its final URL changes.
+The site renders complete Russian (`/ru/`), Kazakh (`/kk/`) and English (`/en/`) pages.
+Use these URLs when sharing links: their social previews are localized without JavaScript.
+Old `?lang=en`, `?lang=kk` and `?lang=kz` entry links are also supported.
+The static exporter includes every language, internal page and localized legal document.
+
+Approved content from the final feedback document is in `static/data/site-content.json`.
+The implementation checklist and remaining foundation-supplied assets are in
+[FEEDBACK_CHECKLIST.md](FEEDBACK_CHECKLIST.md).
+
+Run the integration checks with `python -m unittest discover -s tests -v`.
+
+The homepage gala block hides automatically after 13 November 2026 (Almaty time).
+Before moving this site to qyzfond.org, give the existing Ideathon website a separate
+URL and update the event button and redirect to prevent a link back to this homepage.

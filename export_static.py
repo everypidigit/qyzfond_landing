@@ -9,13 +9,13 @@ from pathlib import Path
 
 from fastapi.testclient import TestClient
 
-from main import app
+from main import LANGS, PROGRAMS, app
 
 
 ROOT = Path(__file__).resolve().parent
 PAGES = (
-    "", "gala", "profidence", "safeguarding", "oferta", "notice",
-    "programs/kumbel-lab", "programs/impactum", "programs/kumbel-pro", "programs/orkendarium",
+    "", "gala", "safeguarding", "oferta", "notice",
+    *[f"programs/{slug}" for slug in PROGRAMS],
 )
 REDIRECTS = {
     "ideathon": "https://qyzfond.org/",
@@ -67,14 +67,18 @@ def export(output: Path, base_path: str, site_url: str | None) -> None:
     shutil.copytree(ROOT / "static", output / "static")
     (output / ".nojekyll").touch()
 
+    public_url = (site_url or "https://example.github.io").rstrip("/") + base_path
+    app.state.public_url = public_url
     client = TestClient(app)
-    for page in PAGES:
-        route = f"/{page}" if page else "/"
+    localized_pages = ["", *[f"{lang}/{page}".rstrip("/") for lang in LANGS for page in PAGES], *[p for p in PAGES if p]]
+    for page in localized_pages:
+        route = f"/{page}/" if page else "/"
         response = client.get(route)
         response.raise_for_status()
         destination = output / page / "index.html" if page else output / "index.html"
         destination.parent.mkdir(parents=True, exist_ok=True)
-        destination.write_text(rewrite_root_urls(response.text, base_path), encoding="utf-8")
+        html = rewrite_root_urls(response.text, base_path).replace('data-base=""', f'data-base="{base_path}"')
+        destination.write_text(html, encoding="utf-8")
 
     for route, target in REDIRECTS.items():
         destination = output / route / "index.html"
@@ -84,10 +88,9 @@ def export(output: Path, base_path: str, site_url: str | None) -> None:
     # A missing demo URL shows the landing page instead of GitHub's generic 404.
     shutil.copy2(output / "index.html", output / "404.html")
 
-    public_url = (site_url or "https://example.github.io").rstrip("/") + base_path
     sitemap = "".join(
         f"<url><loc>{public_url}/{page}</loc></url>" if page else f"<url><loc>{public_url}/</loc></url>"
-        for page in PAGES
+        for page in localized_pages if page.split('/')[0] in LANGS
     )
     (output / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>'

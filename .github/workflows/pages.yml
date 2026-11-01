@@ -30,6 +30,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Check translated pages and navigation
+        run: python -m unittest discover -s tests -v
+
       - name: Export static site
         env:
           REPOSITORY_NAME: ${{ github.event.repository.name }}

@@ -1,0 +1,1356 @@
+{
+  "foundation": {
+    "name": {
+      "ru": "Казахстанский фонд культурного, социального и образовательного развития",
+      "kk": "Қазақстандық Мәдени, Әлеуметтік және Білім Беруді Дамыту Қоры",
+      "en": "Kazakhstan Foundation for Cultural, Social and Educational Development"
+    },
+    "short": {
+      "ru": "KFCSED / ОФ «КФКСОР»",
+      "kk": "KFCSED",
+      "en": "KFCSED"
+    },
+    "footer": {
+      "ru": "ОФ «Казахстанский фонд культурного, социального и образовательного развития» · БИН 991 240 007 135",
+      "kk": "«Қазақстандық Мәдени, Әлеуметтік және Білім Беруді Дамыту Қоры» · БСН 991 240 007 135",
+      "en": "Kazakhstan Foundation for Cultural, Social and Educational Development (KFCSED) · BIN 991 240 007 135"
+    }
+  },
+  "slogans": {
+    "Фонд": {
+      "ru": "Развиваем женщин. Развиваем общество.",
+      "kk": "Әйелдерді дамыту. Қоғамды дамыту.",
+      "en": "Empowering women. Empowering society."
+    },
+    "Kumbel PRO": {
+      "ru": "Совершенствуем мастерство. Развиваем женщин.",
+      "kk": "Кемелдікке ұмтыламыз. Әйелдерді дамытамыз.",
+      "en": "Pursuing excellence. Empowering women."
+    },
+    "Impactum!": {
+      "ru": "Запускаем изменения. Развиваем женщин.",
+      "kk": "Өзгерістерді бастаймыз. Әйелдерді дамытамыз.",
+      "en": "Initiating change. Empowering women."
+    },
+    "Kumbel LAB": {
+      "ru": "Расшифровываем таланты. Развиваем женщин.",
+      "kk": "Таланттарды ашамыз. Әйелдерді дамытамыз.",
+      "en": "Decoding talents. Empowering women."
+    },
+    "Örkendarium": {
+      "ru": "Открываем потенциал. Развиваем женщин.",
+      "kk": "Әлеуетті ашамыз. Әйелдерді дамытамыз.",
+      "en": "Nurturing potential. Empowering women."
+    },
+    "Mayak PRO": {
+      "ru": "Открываем горизонты. Развиваем женщин.",
+      "kk": "Көкжиекті кеңейтеміз. Әйелдерді дамытамыз.",
+      "en": "Discovering horizons. Empowering women."
+    },
+    "Mayak (архив)": {
+      "ru": "Создаём взаимодействие. Развиваем женщин.",
+      "kk": "Синергияны құрамыз. Әйелдерді дамытамыз.",
+      "en": "Creating synergy. Empowering women."
+    },
+    "Kumbel (архив)": {
+      "ru": "Повышаем профессионализм. Развиваем женщин.",
+      "kk": "Шеберлікті арттырамыз. Әйелдерді дамытамыз.",
+      "en": "Enhancing professionalism. Empowering women."
+    },
+    "Mira (архив)": {
+      "ru": "Распространяем уважение. Развиваем женщин.",
+      "kk": "Сыйластық таратамыз. Әйелдерді дамытамыз.",
+      "en": "Spreading respect. Empowering women."
+    }
+  },
+  "meta": {
+    "title": {
+      "ru": "QYZfond — Развиваем женщин. Развиваем общество.",
+      "kk": "QYZfond — Әйелдерді дамыту. Қоғамды дамыту.",
+      "en": "QYZfond — Empowering women. Empowering society."
+    },
+    "description": {
+      "ru": "QYZfond — новое имя бренда Казахстанского фонда культурного, социального и образовательного развития (KFCSED). С 1999 года развиваем профессиональную уверенность девушек и женщин.",
+      "kk": "QYZfond — Қазақстандық Мәдени, Әлеуметтік және Білім Беруді Дамыту Қорының (KFCSED) жаңа бренд атауы. 1999 жылдан бері қыздар мен әйелдердің кәсіби сенімін дамытамыз.",
+      "en": "QYZfond is the new brand name of the Kazakhstan Foundation for Cultural, Social and Educational Development (KFCSED). Since 1999, we have helped girls and women build professional confidence."
+    }
+  },
+  "hero": {
+    "title": {
+      "ru": "Мы — QYZfond.",
+      "kk": "Біз — QYZfond.",
+      "en": "We are QYZfond."
+    },
+    "slogan": {
+      "ru": "Развиваем женщин. Развиваем общество.",
+      "kk": "Әйелдерді дамыту. Қоғамды дамыту.",
+      "en": "Empowering women. Empowering society."
+    },
+    "intro": {
+      "ru": "С 1999 года помогаем девушкам и женщинам Казахстана превращать знания в профессиональную уверенность.",
+      "kk": "1999 жылдан бері Қазақстандағы қыздар мен әйелдерге білімін кәсіби сенімге айналдыруға көмектесеміз.",
+      "en": "Since 1999, we have been helping girls and women in Kazakhstan turn knowledge into professional confidence."
+    },
+    "note": {
+      "ru": "Новое имя Казахстанского фонда культурного, социального и образовательного развития (KFCSED).",
+      "kk": "Қазақстандық Мәдени, Әлеуметтік және Білім Беруді Дамыту Қорының (KFCSED) жаңа атауы.",
+      "en": "The new name of the Kazakhstan Foundation for Cultural, Social and Educational Development (KFCSED)."
+    }
+  },
+  "about": {
+    "title": {
+      "ru": "Опыт, который становится действием.",
+      "kk": "Әрекетке айналатын тәжірибе.",
+      "en": "Experience that turns into action."
+    },
+    "intro": {
+      "ru": "С 1999 года мы расширяем возможности женщин и сообществ Казахстана через образование, наставничество и культурные инициативы.",
+      "kk": "1999 жылдан бері біз білім беру, тәлімгерлік және мәдени бастамалар арқылы Қазақстандағы әйелдер мен қауымдастықтардың мүмкіндіктерін кеңейтіп келеміз.",
+      "en": "Since 1999, we have been expanding opportunities for women and communities in Kazakhstan through education, mentoring and cultural initiatives."
+    },
+    "approach": {
+      "ru": "Наш подход — profidence. В каждой программе мы объединяем обучение профессиональным навыкам от практиков, социально-эмоциональное обучение на основе валидированных психологических инструментов и индивидуальное наставничество.",
+      "kk": "Біздің тәсіліміз — profidence. Әр бағдарламада біз практиктерден кәсіби дағдыларды үйретуді, расталған психологиялық құралдарға негізделген әлеуметтік-эмоционалдық оқытуды және жеке тәлімгерлікті біріктіреміз.",
+      "en": "Our approach is profidence. Every program combines professional skills training from practitioners, social-emotional learning based on validated psychological tools, and individual mentoring."
+    },
+    "tvet": {
+      "ru": "С системой ТиПО работаем с 2008 года: с государственными колледжами по всему Казахстану, очно и онлайн, на русском и казахском языках.",
+      "kk": "2008 жылдан бері ТжКБ жүйесімен жұмыс істейміз: Қазақстан бойынша мемлекеттік колледждермен, бетпе-бет және онлайн, қазақ және орыс тілдерінде.",
+      "en": "We have worked with technical and vocational education (TVET) since 2008: with public colleges across Kazakhstan, in person and online, in Kazakh and Russian."
+    },
+    "sdg_label": {
+      "ru": "Работаем на ЦУР",
+      "kk": "ТДМ-ге үлес қосамыз",
+      "en": "We contribute to the SDGs"
+    },
+    "sdg3": {
+      "ru": "Здоровье",
+      "kk": "Денсаулық",
+      "en": "Good health"
+    },
+    "sdg4": {
+      "ru": "Образование",
+      "kk": "Сапалы білім",
+      "en": "Quality education"
+    },
+    "sdg5": {
+      "ru": "Гендерное равенство",
+      "kk": "Гендерлік теңдік",
+      "en": "Gender equality"
+    },
+    "sdg8": {
+      "ru": "Достойный труд",
+      "kk": "Лайықты еңбек",
+      "en": "Decent work"
+    },
+    "sdg10": {
+      "ru": "Меньше неравенства",
+      "kk": "Теңсіздікті азайту",
+      "en": "Reduced inequalities"
+    }
+  },
+  "trustees": [
+    {
+      "ru": "Вальбуена Вальдивьельсо Клаудия Андреа",
+      "kk": "Вальбуена Вальдивьельсо Клаудия Андреа",
+      "en": "Claudia Andrea Valbuena Valdivielso"
+    },
+    {
+      "ru": "Сапронова Ирина Ивановна",
+      "kk": "Сапронова Ирина Ивановна",
+      "en": "Irina Sapronova"
+    },
+    {
+      "ru": "Диаз Солоага Аурора",
+      "kk": "Диаз Солоага Аурора",
+      "en": "Aurora Díaz Soloaga"
+    }
+  ],
+  "team": [
+    {
+      "name": {
+        "ru": "Бругаролас Мария Хавьер",
+        "kk": "Бругаролас Мария Хавьер",
+        "en": "Maria Javier Brugarolas"
+      },
+      "role": {
+        "ru": "Председатель",
+        "kk": "Төраға",
+        "en": "Chair"
+      }
+    },
+    {
+      "name": {
+        "ru": "Кубеева Айгерим",
+        "kk": "Кубеева Айгерим",
+        "en": "Aigerim Kubeyeva"
+      },
+      "role": {
+        "ru": "Руководитель операционной деятельности",
+        "kk": "Операциялық қызмет жетекшісі",
+        "en": "Head of Operations"
+      }
+    },
+    {
+      "name": {
+        "ru": "Асинская Мария",
+        "kk": "Асинская Мария",
+        "en": "Maria Asinskaya"
+      },
+      "role": {
+        "ru": "Специалист по исследованиям и развитию",
+        "kk": "Зерттеу және даму маманы",
+        "en": "Research and Development Specialist"
+      }
+    },
+    {
+      "name": {
+        "ru": "Цой Жанна",
+        "kk": "Цой Жанна",
+        "en": "Zhanna Tsoy"
+      },
+      "role": {
+        "ru": "Координатор Kumbel LAB",
+        "kk": "Kumbel LAB үйлестірушісі",
+        "en": "Kumbel LAB Coordinator"
+      }
+    },
+    {
+      "name": {
+        "ru": "Шардарбек Жанель",
+        "kk": "Шардарбек Жанель",
+        "en": "Zhanel Shardarbek"
+      },
+      "role": {
+        "ru": "Координатор Kumbel LAB (казахская группа)",
+        "kk": "Kumbel LAB үйлестірушісі (қазақ тобы)",
+        "en": "Kumbel LAB Coordinator (Kazakh-language group)"
+      }
+    },
+    {
+      "name": {
+        "ru": "Ержанова Улпан",
+        "kk": "Ержанова Улпан",
+        "en": "Ulpan Yerzhanova"
+      },
+      "role": {
+        "ru": "Координатор Impactum!",
+        "kk": "Impactum! үйлестірушісі",
+        "en": "Impactum! Coordinator"
+      }
+    },
+    {
+      "name": {
+        "ru": "Кани Аружан",
+        "kk": "Кани Аружан",
+        "en": "Aruzhan Kani"
+      },
+      "role": {
+        "ru": "Координатор Impactum!",
+        "kk": "Impactum! үйлестірушісі",
+        "en": "Impactum! Coordinator"
+      }
+    },
+    {
+      "name": {
+        "ru": "[имя и фамилия — как в папке]",
+        "kk": "[имя и фамилия — как в папке]",
+        "en": "[name as in the folder]"
+      },
+      "role": {
+        "ru": "Координатор Örkendarium и Kumbel PRO",
+        "kk": "Örkendarium және Kumbel PRO үйлестірушісі",
+        "en": "Örkendarium and Kumbel PRO Coordinator"
+      }
+    },
+    {
+      "name": {
+        "ru": "Гаухар [фамилия — в папке]",
+        "kk": "Гаухар [фамилия — в папке]",
+        "en": "Gaukhar [surname]"
+      },
+      "role": {
+        "ru": "Координатор Mayak PRO",
+        "kk": "Mayak PRO үйлестірушісі",
+        "en": "Mayak PRO Coordinator"
+      }
+    },
+    {
+      "name": {
+        "ru": "Пашакулова Олеся",
+        "kk": "Пашакулова Олеся",
+        "en": "Olesya Pashakulova"
+      },
+      "role": {
+        "ru": "Менеджер по развитию LMS / Координатор по обеспечению безопасности",
+        "kk": "LMS дамыту менеджері / Қауіпсіздік жөніндегі үйлестіруші",
+        "en": "LMS Development Manager / Safeguarding Coordinator"
+      }
+    },
+    {
+      "name": {
+        "ru": "Крылова Кристина",
+        "kk": "Крылова Кристина",
+        "en": "Kristina Krylova"
+      },
+      "role": {
+        "ru": "SMM-специалист",
+        "kk": "SMM маманы",
+        "en": "SMM Specialist"
+      }
+    },
+    {
+      "name": {
+        "ru": "Равера Мария Хелена",
+        "kk": "Равера Мария Хелена",
+        "en": "Maria Helena Ravera"
+      },
+      "role": {
+        "ru": "Менеджер по управлению и устойчивому развитию объектов недвижимости фонда",
+        "kk": "Қордың жылжымайтын мүлкін басқару және тұрақты дамыту жөніндегі менеджер",
+        "en": "Property Management and Sustainability Manager"
+      }
+    },
+    {
+      "name": {
+        "ru": "Кощук Яна",
+        "kk": "Кощук Яна",
+        "en": "Yana Kochshuk"
+      },
+      "role": {
+        "ru": "Советник по стратегическим коммуникациям",
+        "kk": "Стратегиялық коммуникациялар жөніндегі кеңесші",
+        "en": "Strategic Communications Advisor"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1999",
+      "text": {
+        "ru": "Фонд зарегистрирован в Алматы",
+        "kk": "Қор Алматыда тіркелді",
+        "en": "Foundation registered in Almaty"
+      }
+    },
+    {
+      "year": "2012",
+      "text": {
+        "ru": "Kumbel",
+        "kk": "Kumbel",
+        "en": "Kumbel"
+      }
+    },
+    {
+      "year": "2015",
+      "text": {
+        "ru": "Mayak",
+        "kk": "Mayak",
+        "en": "Mayak"
+      }
+    },
+    {
+      "year": "2018",
+      "text": {
+        "ru": "Kumbel PRO · Impactum! · Mira",
+        "kk": "Kumbel PRO · Impactum! · Mira",
+        "en": "Kumbel PRO · Impactum! · Mira"
+      }
+    },
+    {
+      "year": "2021",
+      "text": {
+        "ru": "Mayak PRO",
+        "kk": "Mayak PRO",
+        "en": "Mayak PRO"
+      }
+    },
+    {
+      "year": "2022",
+      "text": {
+        "ru": "Kumbel LAB",
+        "kk": "Kumbel LAB",
+        "en": "Kumbel LAB"
+      }
+    },
+    {
+      "year": "2025",
+      "text": {
+        "ru": "Örkendarium",
+        "kk": "Örkendarium",
+        "en": "Örkendarium"
+      }
+    },
+    {
+      "year": "2026",
+      "text": {
+        "ru": "Стали QYZfond · Ideathon by QYZfond",
+        "kk": "QYZfond атандық · Ideathon by QYZfond",
+        "en": "Became QYZfond · Ideathon by QYZfond"
+      }
+    }
+  ],
+  "support": {
+    "halyk": {
+      "ru": "Внести взнос через Halyk →",
+      "kk": "Halyk арқылы жарна салу →",
+      "en": "Donate via Halyk Bank →"
+    },
+    "kaspi": {
+      "ru": "Внести взнос через Kaspi →",
+      "kk": "Kaspi арқылы жарна салу →",
+      "en": "Donate via Kaspi →"
+    },
+    "details": {
+      "ru": "Halyk Bank · IBAN KZ186017131000058248 · БИН 991 240 007 135 · БИК HSBKKZKX",
+      "kk": "Halyk Bank · IBAN KZ186017131000058248 · БСН 991 240 007 135 · БСК HSBKKZKX",
+      "en": "Halyk Bank · IBAN KZ186017131000058248 · BIN 991 240 007 135 · BIC HSBKKZKX"
+    },
+    "offer": {
+      "ru": "Реквизиты и оферта →",
+      "kk": "Деректемелер және жария оферта →",
+      "en": "Bank details and public offer →"
+    }
+  },
+  "partners": {
+    "all": {
+      "ru": "Все партнёры фонда",
+      "kk": "Қордың барлық серіктестері",
+      "en": "All our partners"
+    },
+    "corporate": {
+      "ru": "Компании",
+      "kk": "Компаниялар",
+      "en": "Companies"
+    },
+    "international": {
+      "ru": "Международные организации",
+      "kk": "Халықаралық ұйымдар",
+      "en": "International organisations"
+    },
+    "local": {
+      "ru": "Казахстанские организации",
+      "kk": "Қазақстандық ұйымдар",
+      "en": "Kazakhstani organisations"
+    },
+    "colleges": {
+      "ru": "Колледжи",
+      "kk": "Колледждер",
+      "en": "Colleges"
+    }
+  },
+  "instagram": {
+    "foundation": {
+      "ru": "Instagram фонда · @kfcsed ↗",
+      "kk": "Қордың Instagram парақшасы · @kfcsed ↗",
+      "en": "Foundation on Instagram · @kfcsed ↗"
+    },
+    "students": {
+      "ru": "Instagram для студенток · @qyzfond ↗",
+      "kk": "Студенттерге арналған Instagram · @qyzfond ↗",
+      "en": "Student community on Instagram · @qyzfond ↗"
+    }
+  },
+  "ideathon": {
+    "label": {
+      "ru": "03 / Ideathon by QYZfond 2026",
+      "kk": "03 / Ideathon by QYZfond 2026",
+      "en": "03 / Ideathon by QYZfond 2026"
+    },
+    "title": {
+      "ru": "Настоящие задачи. Настоящие решения.",
+      "kk": "Нақты міндеттер. Нақты шешімдер.",
+      "en": "Real challenges. Real solutions."
+    },
+    "intro": {
+      "ru": "27–31 октября 2026 года Ideathon by QYZfond прошёл в Алматы вместе с Управлением образования города Алматы. Студентки колледжей решали реальные кейсы десяти компаний: работали в командах с наставниками на площадках колледжей, а на Гранд-финале в ALT University представили лучшие решения. Команды-победительницы каждого трека получили стажировку или обучение в компании-партнёре.",
+      "kk": "2026 жылғы 27–31 қазанда Ideathon by QYZfond Алматы қаласының Білім басқармасымен бірге Алматыда өтті. Колледж студенттері он компанияның нақты кейстерін шешті: колледж алаңдарында тәлімгерлермен бірге командада жұмыс істеп, ALT University-дегі Гранд-финалда ең үздік шешімдерді таныстырды. Әр тректің жеңімпаз командалары серіктес компаниядан тағылымдама немесе оқу мүмкіндігін алды.",
+      "en": "On 27–31 October 2026, Ideathon by QYZfond took place in Almaty together with the Almaty City Education Department. College students worked on real cases from ten companies, in teams with mentors at host colleges. At the Grand Final at ALT University, they presented their best solutions. The winning team of each track earned an internship or training with the partner company."
+    },
+    "stat1": {
+      "ru": "882 зарегистрированных студенток",
+      "kk": "882 тіркелген студент қыз",
+      "en": "882 students registered"
+    },
+    "stat2": {
+      "ru": "56 колледжей",
+      "kk": "56 колледж",
+      "en": "56 colleges"
+    },
+    "stat3": {
+      "ru": "172 проекта",
+      "kk": "172 жоба",
+      "en": "172 projects"
+    },
+    "stat4": {
+      "ru": "10 треков с компаниями-партнёрами",
+      "kk": "10 серіктес компаниялармен трек",
+      "en": "10 tracks with partner companies"
+    },
+    "thanks": {
+      "ru": "Спасибо 18 бизнес-партнёрам, более чем 50 наставникам и 200 волонтёрам.",
+      "kk": "18 бизнес-серіктеске, 50-ден астам тәлімгерге және 200 волонтёрге рахмет.",
+      "en": "Thank you to our 18 business partners, 50+ mentors and 200 volunteers."
+    },
+    "button": {
+      "ru": "О событии ↗",
+      "kk": "Іс-шара туралы ↗",
+      "en": "About the event ↗"
+    }
+  },
+  "tracks": [
+    {
+      "ru": "Smart City",
+      "kk": "Smart City",
+      "en": "Smart City"
+    },
+    {
+      "ru": "IT",
+      "kk": "IT",
+      "en": "IT"
+    },
+    {
+      "ru": "Маркетинг",
+      "kk": "Маркетинг",
+      "en": "Marketing"
+    },
+    {
+      "ru": "Ритейл",
+      "kk": "Бөлшек сауда",
+      "en": "Retail"
+    },
+    {
+      "ru": "Мода",
+      "kk": "Сән",
+      "en": "Fashion"
+    },
+    {
+      "ru": "Рестораны",
+      "kk": "Мейрамханалар",
+      "en": "Restaurants"
+    },
+    {
+      "ru": "Гостеприимство",
+      "kk": "Қонақжайлылық",
+      "en": "Hospitality"
+    },
+    {
+      "ru": "Креативные индустрии",
+      "kk": "Шығармашылық индустриялар",
+      "en": "Creative industries"
+    },
+    {
+      "ru": "Здоровье и красота",
+      "kk": "Денсаулық және сұлулық",
+      "en": "Health & Beauty"
+    },
+    {
+      "ru": "Дизайн интерьера",
+      "kk": "Интерьер дизайны",
+      "en": "Interior design"
+    }
+  ],
+  "event": {
+    "date": {
+      "ru": "13 ноября 2026",
+      "kk": "13 қараша 2026",
+      "en": "13 November 2026"
+    },
+    "place": {
+      "ru": "Алматы · Novotel",
+      "kk": "Алматы · Novotel",
+      "en": "Almaty · Novotel"
+    },
+    "title": {
+      "ru": "Благотворительный гала-ужин AVANTI",
+      "kk": "AVANTI қайырымдылық гала-кешкі асы",
+      "en": "AVANTI charity gala dinner"
+    },
+    "intro": {
+      "ru": "Вечер о результатах, людях и следующем шаге QYZfond.",
+      "kk": "QYZfond нәтижелері, адамдары және келесі қадамы туралы кеш.",
+      "en": "An evening about QYZfond’s results, people and next step."
+    },
+    "buttons": {
+      "ru": "Зарегистрироваться → · Подробнее →",
+      "kk": "Тіркелу → · Толығырақ →",
+      "en": "Register → · Learn more →"
+    }
+  },
+  "gala": {
+    "label": {
+      "ru": "Событие",
+      "kk": "Іс-шара",
+      "en": "Event"
+    },
+    "title": {
+      "ru": "Благотворительный гала-ужин AVANTI",
+      "kk": "AVANTI қайырымдылық гала-кешкі асы",
+      "en": "AVANTI charity gala dinner"
+    },
+    "concept": {
+      "ru": "AVANTI · корни, площадь и будущее",
+      "kk": "AVANTI · тамырлар, алаң және болашақ",
+      "en": "AVANTI · roots, piazza and future"
+    },
+    "date": {
+      "ru": "13 ноября 2026 · Novotel Almaty",
+      "kk": "2026 жылғы 13 қараша · Novotel Almaty",
+      "en": "13 November 2026 · Novotel Almaty"
+    },
+    "intro": {
+      "ru": "Благотворительный гала-ужин в итальянском стиле для партнёров и друзей фонда и международного сообщества Алматы.",
+      "kk": "Қор серіктестері мен достарына және Алматының халықаралық қауымдастығына арналған итальян стиліндегі қайырымдылық гала-кешкі ас.",
+      "en": "An Italian-style charity gala dinner for the foundation’s partners and friends and Almaty’s international community."
+    },
+    "fact1": {
+      "ru": "19:00–23:00 · время",
+      "kk": "19:00–23:00 · уақыты",
+      "en": "19:00–23:00 · time"
+    },
+    "fact2": {
+      "ru": "90 · гостей",
+      "kk": "90 · қонақ",
+      "en": "90 · guests"
+    },
+    "fact3": {
+      "ru": "Вечерний · римская ночь · дресс-код",
+      "kk": "Кешкі киім · Рим түні · дресс-код",
+      "en": "Evening wear · a Roman night · dress code"
+    },
+    "programme": {
+      "ru": "Программа вечера",
+      "kk": "Кеш бағдарламасы",
+      "en": "Evening programme"
+    },
+    "item1": {
+      "ru": "Итальянский ужин — авторское дегустационное меню из продуктов Biodom и итальянские вина.",
+      "kk": "Итальян кешкі асы — Biodom өнімдерінен жасалған авторлық дегустациялық мәзір және итальян шараптары.",
+      "en": "Italian dinner — a signature tasting menu made with Biodom products, paired with Italian wines."
+    },
+    "item2": {
+      "ru": "Живая музыка — флорентийский маэстро Ержан Тажимбетов.",
+      "kk": "Тірі музыка — флоренциялық маэстро Ержан Тажимбетов.",
+      "en": "Live music — Florentine maestro Yerzhan Tazhimbetov."
+    },
+    "item3": {
+      "ru": "Аукцион — особые лоты и впечатления от партнёров.",
+      "kk": "Аукцион — серіктестерден ерекше лоттар мен әсерлер.",
+      "en": "Auction — special lots and experiences from our partners."
+    },
+    "item4": {
+      "ru": "Рим 60-х — конкурсы, подарки и фотозона с Vespa.",
+      "kk": "60-жылдардағы Рим — байқаулар, сыйлықтар және Vespa фотоаймағы.",
+      "en": "Rome in the 60s — games, gifts and a Vespa photo corner."
+    },
+    "menu": {
+      "ru": "Меню",
+      "kk": "Мәзір",
+      "en": "Menu"
+    },
+    "Aperitivo": {
+      "ru": "итальянские закуски",
+      "kk": "итальян тіскебасарлары",
+      "en": "Italian appetisers"
+    },
+    "Antipasto": {
+      "ru": "карпаччо и мясные деликатесы",
+      "kk": "карпаччо және ет деликатестері",
+      "en": "carpaccio and cured meats"
+    },
+    "Primi": {
+      "ru": "ризотто с белыми грибами, ригатони болоньезе",
+      "kk": "ақ саңырауқұлақ қосылған ризотто, болоньезе ригатонисі",
+      "en": "porcini risotto, rigatoni bolognese"
+    },
+    "Secondi": {
+      "ru": "сибас al cartoccio, тальята из говядины",
+      "kk": "al cartoccio сибасы, сиыр етінен тальята",
+      "en": "sea bass al cartoccio, beef tagliata"
+    },
+    "Dolce": {
+      "ru": "сицилийский канноло",
+      "kk": "сицилиялық канноло",
+      "en": "Sicilian cannolo"
+    },
+    "cta_title": {
+      "ru": "Стать частью вечера",
+      "kk": "Кештің бір бөлігі болыңыз",
+      "en": "Be part of the evening"
+    },
+    "cta_text": {
+      "ru": "Благотворительный взнос за участие — 50 000 ₸ с гостя. Для компаний есть партнёрские форматы: взнос 250 000 ₸ за четырёх гостей или 500 000 ₸ за стол на восемь гостей, а также аукционные лоты. Взносы поддерживают образовательные программы фонда.",
+      "kk": "Қатысуға арналған қайырымдылық жарнасы — бір қонаққа 50 000 ₸. Компаниялар үшін серіктестік форматтары бар: төрт қонақ үшін 250 000 ₸ немесе сегіз қонаққа арналған үстел үшін 500 000 ₸ жарна, сондай-ақ аукцион лоттары. Жарналар қордың білім беру бағдарламаларын қолдайды.",
+      "en": "The charity contribution is 50,000 ₸ per guest. Companies can choose a partnership format: a contribution of 250,000 ₸ for four guests or 500,000 ₸ for a table of eight, as well as auction lots. Contributions support the foundation’s education programs."
+    },
+    "register": {
+      "ru": "Зарегистрироваться →",
+      "kk": "Тіркелу →",
+      "en": "Register →"
+    },
+    "halyk": {
+      "ru": "Внести взнос через Halyk →",
+      "kk": "Halyk арқылы жарна салу →",
+      "en": "Contribute via Halyk Bank →"
+    },
+    "kaspi": {
+      "ru": "Внести взнос через Kaspi →",
+      "kk": "Kaspi арқылы жарна салу →",
+      "en": "Contribute via Kaspi →"
+    },
+    "partner": {
+      "ru": "Обсудить партнёрство →",
+      "kk": "Серіктестікті талқылау →",
+      "en": "Discuss a partnership →"
+    }
+  },
+  "program_labels": {
+    "label": {
+      "ru": "QYZfond · программа",
+      "kk": "QYZfond · бағдарлама",
+      "en": "QYZfond · program"
+    },
+    "audience": {
+      "ru": "Для кого",
+      "kk": "Кімге арналған",
+      "en": "Who it is for"
+    },
+    "format": {
+      "ru": "Формат",
+      "kk": "Формат",
+      "en": "Format"
+    },
+    "title": {
+      "ru": "Знания превращаются в практику.",
+      "kk": "Білім тәжірибеге айналады.",
+      "en": "Knowledge turns into practice."
+    },
+    "result": {
+      "ru": "Результат",
+      "kk": "Нәтиже",
+      "en": "Outcome"
+    },
+    "button": {
+      "ru": "Узнать об участии →",
+      "kk": "Қатысу туралы білу →",
+      "en": "How to take part →"
+    },
+    "back": {
+      "ru": "← Все программы QYZfond",
+      "kk": "← QYZfond-тың барлық бағдарламалары",
+      "en": "← All QYZfond programs"
+    }
+  },
+  "cards": {
+    "kumbel_pro_question": {
+      "ru": "Я педагог колледжа",
+      "kk": "Мен колледж педагогімін",
+      "en": "I teach at a college"
+    },
+    "mayak_pro_question": {
+      "ru": "Я преподаю в вузе и хочу стать наставником",
+      "kk": "Мен ЖОО-да сабақ беремін және тәлімгер болғым келеді",
+      "en": "I teach at a university and want to become a mentor"
+    },
+    "mayak_pro_intro": {
+      "ru": "Наставничество для тех, кто поддерживает педагогов колледжей.",
+      "kk": "Колледж педагогтерін қолдайтындарға арналған тәлімгерлік.",
+      "en": "Mentoring for those who support college teachers."
+    }
+  },
+  "programs": {
+    "kumbel-lab": {
+      "audience": {
+        "ru": "Студентки колледжей Алматы, которые начинают путь в IT.",
+        "kk": "IT саласына қадам басқан Алматы колледждерінің студент қыздары.",
+        "en": "Female college students in Almaty starting their path in IT."
+      },
+      "format": {
+        "ru": "9 месяцев · офлайн · русский и казахский",
+        "kk": "9 ай · офлайн · қазақ және орыс тілдерінде",
+        "en": "9 months · in person · Kazakh and Russian"
+      },
+      "description": {
+        "ru": "Практическая программа по мобильной разработке и современным AI-инструментам. Участницы изучают Flutter, Dart, Firebase, Figma и AI-first подход, развивают коммуникацию, тайм-менеджмент и навыки публичных выступлений.",
+        "kk": "Мобильді әзірлеу және заманауи AI құралдары бойынша практикалық бағдарлама. Қатысушылар Flutter, Dart, Firebase, Figma және AI-first тәсілін меңгеріп, коммуникация, уақытты басқару және жария сөйлеу дағдыларын дамытады.",
+        "en": "A practical program in mobile development and modern AI tools. Participants learn Flutter, Dart, Firebase, Figma and an AI-first approach, and develop communication, time management and public speaking skills."
+      },
+      "result": {
+        "ru": "Каждая участница планирует, создаёт и защищает собственное мобильное приложение.",
+        "kk": "Әр қатысушы өз мобильді қосымшасын жоспарлап, жасап, қорғайды.",
+        "en": "Each participant plans, builds and presents her own mobile app."
+      },
+      "fact1": {
+        "ru": "Запущена в марте 2022 года",
+        "kk": "2022 жылғы наурызда басталды",
+        "en": "Launched in March 2022"
+      },
+      "fact2": {
+        "ru": "Текущий поток: октябрь 2026 — июнь 2027",
+        "kk": "Ағымдағы топ: 2026 жылғы қазан — 2027 жылғы маусым",
+        "en": "Current cohort: October 2026 – June 2027"
+      },
+      "fact3": {
+        "ru": "Практические занятия на базе KIMEP до трёх раз в неделю",
+        "kk": "KIMEP базасында аптасына үш ретке дейін практикалық сабақтар",
+        "en": "Hands-on classes at KIMEP University up to three times a week"
+      }
+    },
+    "impactum": {
+      "audience": {
+        "ru": "Студентки колледжей Алматы 16–21 года, которым интересны коммуникации и управление проектами.",
+        "kk": "Коммуникация мен жобаларды басқаруға қызығатын 16–21 жастағы Алматы колледждерінің студент қыздары.",
+        "en": "Female college students in Almaty aged 16–21 who are interested in communications and project management."
+      },
+      "format": {
+        "ru": "8–9 месяцев · офлайн · русский",
+        "kk": "8–9 ай · офлайн · орыс тілінде",
+        "en": "8–9 months · in person · Russian"
+      },
+      "description": {
+        "ru": "Практическая программа по SMM, контенту, креативным коммуникациям, управлению проектами и социальному воздействию. Участницы работают в командах, меняются ролями и решают задачи реальных клиентов.",
+        "kk": "SMM, контент, креативті коммуникация, жобаларды басқару және әлеуметтік әсер бойынша практикалық бағдарлама. Қатысушылар командада жұмыс істеп, рөлдерін ауыстырады және нақты клиенттердің міндеттерін шешеді.",
+        "en": "A practical program in SMM, content, creative communications, project management and social impact. Participants work in teams, rotate roles and solve tasks for real clients."
+      },
+      "result": {
+        "ru": "Финал программы — личный кейс и портфолио с реализованными проектами.",
+        "kk": "Бағдарламаның қорытындысы — жеке кейс және іске асырылған жобалары бар портфолио.",
+        "en": "The program ends with a personal case study and a portfolio of completed projects."
+      },
+      "fact1": {
+        "ru": "Работает с 2018 года",
+        "kk": "2018 жылдан бері жұмыс істейді",
+        "en": "Running since 2018"
+      },
+      "fact2": {
+        "ru": "Новый поток — с октября 2026 года, до 30–40 участниц",
+        "kk": "Жаңа топ — 2026 жылғы қазаннан, 30–40 қатысушыға дейін",
+        "en": "New cohort from October 2026, up to 30–40 participants"
+      },
+      "fact3": {
+        "ru": "Шесть модулей: SMM, коммуникации, управление проектами и социальное воздействие",
+        "kk": "Алты модуль: SMM, коммуникация, жобаларды басқару және әлеуметтік әсер",
+        "en": "Six modules: SMM, communications, project management and social impact"
+      }
+    },
+    "kumbel-pro": {
+      "audience": {
+        "ru": "Педагоги, мастера производственного обучения и руководители организаций ТиПО Казахстана.",
+        "kk": "Қазақстандағы ТжКБ ұйымдарының педагогтері, өндірістік оқыту шеберлері және басшылары.",
+        "en": "Teachers, vocational training instructors and leaders of TVET institutions in Kazakhstan."
+      },
+      "format": {
+        "ru": "2 месяца · онлайн · 80 академических часов · русский и казахский",
+        "kk": "2 ай · онлайн · 80 академиялық сағат · қазақ және орыс тілдерінде",
+        "en": "2 months · online · 80 academic hours · Kazakh and Russian"
+      },
+      "description": {
+        "ru": "Аккредитованная программа профессионального развития об эмоциональном интеллекте, профилактике выгорания, коммуникации, командной устойчивости и преподавании с опорой на эмоциональные навыки.",
+        "kk": "Эмоционалдық интеллект, күйіп қалудың алдын алу, коммуникация, команданың тұрақтылығы және эмоционалдық дағдыларға сүйенген оқыту туралы аккредиттелген кәсіби даму бағдарламасы.",
+        "en": "An accredited professional development program on emotional intelligence, burnout prevention, communication, team resilience and teaching that builds on emotional skills."
+      },
+      "result": {
+        "ru": "Участники проводят практические тренинги для коллег и распространяют инструменты внутри своих организаций.",
+        "kk": "Қатысушылар әріптестеріне практикалық тренингтер өткізіп, құралдарды өз ұйымдарында таратады.",
+        "en": "Participants run practical training sessions for colleagues and share the tools within their institutions."
+      },
+      "fact1": {
+        "ru": "Запущена в 2018 году",
+        "kk": "2018 жылы басталды",
+        "en": "Launched in 2018"
+      },
+      "fact2": {
+        "ru": "Курс «Ресурсный педагог» аккредитован на платформе Ustaz PRO",
+        "kk": "«Ресурстық педагог» курсы Ustaz PRO платформасында аккредиттелген",
+        "en": "The “Resource Teacher” course is accredited on the Ustaz PRO platform"
+      },
+      "fact3": {
+        "ru": "Для системы технического и профессионального образования Казахстана",
+        "kk": "Қазақстанның техникалық және кәсіптік білім беру жүйесі үшін",
+        "en": "Built for Kazakhstan’s technical and vocational education system"
+      }
+    },
+    "mayak-pro": {
+      "audience": {
+        "ru": "Преподаватели вузов, лекторы и тренеры личностного развития, которые хотят стать наставниками педагогов ТиПО.",
+        "kk": "ТжКБ педагогтеріне тәлімгер болғысы келетін ЖОО оқытушылары, лекторлар және жеке даму тренерлері.",
+        "en": "University teachers, lecturers and personal development coaches who want to mentor TVET teachers."
+      },
+      "format": {
+        "ru": "4 месяца · онлайн и офлайн · русский и казахский",
+        "kk": "4 ай · онлайн және офлайн · қазақ және орыс тілдерінде",
+        "en": "4 months · online and in person · Kazakh and Russian"
+      },
+      "description": {
+        "ru": "Программа развивает навыки эффективного наставничества у преподавателей вузов. Участники проходят обучение и применяют его в наставнических парах с педагогами колледжей: еженедельные встречи, активное слушание, эмпатия и качественная обратная связь.",
+        "kk": "Бағдарлама ЖОО оқытушыларының тиімді тәлімгерлік дағдыларын дамытады. Қатысушылар оқудан өтіп, оны колледж педагогтерімен тәлімгерлік жұпта қолданады: апта сайынғы кездесулер, белсенді тыңдау, эмпатия және сапалы кері байланыс.",
+        "en": "The program builds effective mentoring skills among university teachers. Participants complete training and apply it in mentoring pairs with college teachers: weekly meetings, active listening, empathy and quality feedback."
+      },
+      "result": {
+        "ru": "Наставники сопровождают педагогов ТиПО и поддерживают их на двух итоговых тренингах.",
+        "kk": "Тәлімгерлер ТжКБ педагогтерін сүйемелдеп, екі қорытынды тренингте оларға қолдау көрсетеді.",
+        "en": "Mentors guide TVET teachers and support them through two final training sessions."
+      },
+      "fact1": {
+        "ru": "Запущена в январе 2021 года",
+        "kk": "2021 жылғы қаңтарда басталды",
+        "en": "Launched in January 2021"
+      },
+      "fact2": {
+        "ru": "Наставнические пары «преподаватель вуза — педагог колледжа»",
+        "kk": "«ЖОО оқытушысы — колледж педагогі» тәлімгерлік жұптары",
+        "en": "Mentoring pairs of a university teacher and a college teacher"
+      }
+    },
+    "orkendarium": {
+      "audience": {
+        "ru": "Женщины и мамы из Алматы и пригорода, которые развивают собственное дело.",
+        "kk": "Өз ісін дамытып жүрген Алматы мен қала маңындағы әйелдер мен аналар.",
+        "en": "Women and mothers in Almaty and its suburbs who are developing their own business."
+      },
+      "format": {
+        "ru": "Два уровня по 4 недели · утренние и дневные группы · казахский и русский · детская комната",
+        "kk": "4 аптадан тұратын екі деңгей · таңғы және күндізгі топтар · қазақ және орыс тілдерінде · балалар бөлмесі",
+        "en": "Two 4-week levels · morning and afternoon groups · Kazakh and Russian · on-site childcare"
+      },
+      "description": {
+        "ru": "Образовательная программа объединяет обучение, практику и поддержку сообщества. Первый уровень «Старт с уверенностью» знакомит с основами предпринимательства, коммуникацией, цифровыми инструментами и AI. Второй — «Рост через лидерство» — посвящён управлению бизнесом, финансовому планированию, продвижению и лидерству.",
+        "kk": "Бағдарлама оқытуды, тәжірибені және қауымдастықтың қолдауын біріктіреді. Бірінші деңгей — «Сеніммен бастау» — кәсіпкерлік негіздерімен, коммуникациямен, цифрлық құралдармен және AI-мен таныстырады. Екінші деңгей — «Көшбасшылық арқылы өсу» — бизнесті басқаруға, қаржылық жоспарлауға, жылжытуға және көшбасшылыққа арналған.",
+        "en": "The program combines learning, practice and community support. The first level, “Start with Confidence”, covers the basics of entrepreneurship, communication, digital tools and AI. The second, “Grow Through Leadership”, focuses on business management, financial planning, promotion and leadership."
+      },
+      "result": {
+        "ru": "В 2026 году: 323 заявки, 134 участницы, 97 выпускниц с сертификатами. 192 часа обучения, 20 тренеров и наставников, более 60 бизнес-проектов. 100% опрошенных выпускниц довольны программой.",
+        "kk": "2026 жылы: 323 өтінім, 134 қатысушы, сертификат алған 97 түлек. 192 сағат оқыту, 20 тренер мен тәлімгер, 60-тан астам бизнес-жоба. Сауалнамаға қатысқан түлектердің 100%-ы бағдарламаға риза.",
+        "en": "In 2026: 323 applications, 134 participants and 97 graduates with certificates. 192 hours of training, 20 trainers and mentors, and 60+ business projects. 100% of surveyed graduates were satisfied with the program."
+      },
+      "fact1": {
+        "ru": "Запущена в 2025 году",
+        "kk": "2025 жылы басталды",
+        "en": "Launched in 2025"
+      },
+      "fact2": {
+        "ru": "Победитель Aiqyn Social Impact Awards 2025 от Kazakhstan Growth Forum в категории «Образование»",
+        "kk": "Kazakhstan Growth Forum ұйымдастырған Aiqyn Social Impact Awards 2025 «Білім беру» номинациясының жеңімпазы",
+        "en": "Winner of the Aiqyn Social Impact Awards 2025 by Kazakhstan Growth Forum, Education category"
+      },
+      "fact3": {
+        "ru": "При поддержке Офиса программ ОБСЕ в Астане; грантовый конкурс для выпускниц — при поддержке Kazakhstan Growth Forum",
+        "kk": "ЕҚЫҰ-ның Астанадағы бағдарламалар офисінің қолдауымен; түлектерге арналған гранттық конкурс — Kazakhstan Growth Forum қолдауымен",
+        "en": "Supported by the OSCE Programme Office in Astana; grant competition for graduates supported by Kazakhstan Growth Forum"
+      },
+      "button": {
+        "ru": "Подробнее и заявка ↗",
+        "kk": "Толығырақ және өтінім ↗",
+        "en": "Details and application ↗"
+      }
+    }
+  },
+  "archive": {
+    "title": {
+      "ru": "Архив программ",
+      "kk": "Бағдарламалар мұрағаты",
+      "en": "Program archive"
+    },
+    "intro": {
+      "ru": "Программы, которые завершились, но стали основой нашей работы.",
+      "kk": "Аяқталған, бірақ жұмысымыздың негізіне айналған бағдарламалар.",
+      "en": "Programs that have ended but laid the foundation for our work."
+    },
+    "kumbel": {
+      "ru": "Девятимесячная программа для студенток колледжей по специальностям гостеприимства: профессиональные модули и курсы по самооценке, целеполаганию и командной работе.",
+      "kk": "Қонақжайлылық мамандықтарында оқитын колледж студенттеріне арналған тоғыз айлық бағдарлама: кәсіби модульдер және өзін-өзі бағалау, мақсат қою және командалық жұмыс бойынша курстар.",
+      "en": "A nine-month program for female college students in hospitality: professional modules plus courses on self-esteem, goal-setting and teamwork."
+    },
+    "mayak": {
+      "ru": "Наставничество: женщины-профессионалы из разных сфер поддерживали студенток колледжей в течение учебного года.",
+      "kk": "Тәлімгерлік: түрлі саладағы кәсіби әйелдер оқу жылы бойы колледж студенттерін қолдады.",
+      "en": "Mentoring: professional women from many fields supported female college students throughout the academic year."
+    },
+    "mira": {
+      "ru": "Лекции о правах человека, тренинги мягких навыков и фотовыставка работ студенток.",
+      "kk": "Адам құқықтары туралы дәрістер, жұмсақ дағдылар бойынша тренингтер және студенттердің жұмыстарынан фотокөрме.",
+      "en": "Human rights lectures, soft-skills training and a photo exhibition of students’ work."
+    }
+  },
+  "safety": {
+    "label": {
+      "ru": "Документы",
+      "kk": "Құжаттар",
+      "en": "Documents"
+    },
+    "title": {
+      "ru": "Политика безопасности",
+      "kk": "Қауіпсіздік саясаты",
+      "en": "Safeguarding policy"
+    },
+    "subtitle": {
+      "ru": "Безопасная среда — часть профессионального роста.",
+      "kk": "Қауіпсіз орта — кәсіби өсудің бір бөлігі.",
+      "en": "A safe environment is part of professional growth."
+    },
+    "intro": {
+      "ru": "Политика распространяется на сотрудников, членов руководящих органов, участниц, волонтёров, консультантов, партнёров и всех, кто работает от имени QYZfond.",
+      "kk": "Саясат қызметкерлерге, басқару органдарының мүшелеріне, қатысушыларға, волонтёрлерге, кеңесшілерге, серіктестерге және QYZfond атынан жұмыс істейтін барлық адамдарға қолданылады.",
+      "en": "The policy applies to staff, members of governing bodies, participants, volunteers, consultants, partners and everyone who works on behalf of QYZfond."
+    },
+    "policy": {
+      "ru": "Политика безопасности · PDF",
+      "kk": "Қауіпсіздік саясаты · PDF",
+      "en": "Safeguarding policy · PDF"
+    },
+    "code": {
+      "ru": "Кодекс этики и поведения · PDF",
+      "kk": "Әдеп және мінез-құлық кодексі · PDF",
+      "en": "Code of ethics and conduct · PDF"
+    },
+    "incident": {
+      "ru": "Сообщить об инциденте · Форма",
+      "kk": "Оқиға туралы хабарлау · Нысан",
+      "en": "Report an incident · Form"
+    },
+    "participants": {
+      "ru": "Анкета для участниц · Форма",
+      "kk": "Қатысушыларға арналған сауалнама · Нысан",
+      "en": "Participant questionnaire · Form"
+    },
+    "staff": {
+      "ru": "Анкета для сотрудников · Форма",
+      "kk": "Қызметкерлерге арналған сауалнама · Нысан",
+      "en": "Staff questionnaire · Form"
+    },
+    "mentors": {
+      "ru": "Анкета для менторов и тренеров · Форма",
+      "kk": "Тәлімгерлер мен тренерлерге арналған сауалнама · Нысан",
+      "en": "Mentor and trainer questionnaire · Form"
+    },
+    "resources": {
+      "ru": "Информационные материалы · ZIP",
+      "kk": "Ақпараттық материалдар · ZIP",
+      "en": "Information materials · ZIP"
+    },
+    "video": {
+      "ru": "Видео о безопасности · YouTube",
+      "kk": "Қауіпсіздік туралы бейне · YouTube",
+      "en": "Safeguarding video · YouTube"
+    },
+    "help": {
+      "ru": "Нужна помощь?",
+      "kk": "Көмек керек пе?",
+      "en": "Need help?"
+    },
+    "help_text": {
+      "ru": "Сообщения рассматриваются конфиденциально. Свяжитесь с координатором по обеспечению безопасности или заполните форму выше.",
+      "kk": "Хабарламалар құпия түрде қаралады. Қауіпсіздік жөніндегі үйлестірушіге хабарласыңыз немесе жоғарыдағы нысанды толтырыңыз.",
+      "en": "Reports are handled confidentially. Contact our safeguarding coordinator or fill in the form above."
+    }
+  },
+  "notice": {
+    "label": {
+      "ru": "Информация",
+      "kk": "Ақпарат",
+      "en": "Information"
+    },
+    "title": {
+      "ru": "Официальное уведомление",
+      "kk": "Ресми хабарлама",
+      "en": "Official notice"
+    },
+    "subtitle": {
+      "ru": "Остерегайтесь мошенничества",
+      "kk": "Алаяқтықтан сақ болыңыз",
+      "en": "Beware of fraud"
+    },
+    "intro": {
+      "ru": "Фонд информирует о случаях, когда третьи лица используют его имя без разрешения.",
+      "kk": "Қор үшінші тұлғалардың оның атын рұқсатсыз пайдалану жағдайлары туралы хабарлайды.",
+      "en": "The foundation has learned of cases in which third parties use its name without permission."
+    },
+    "warning": {
+      "ru": "QYZfond не осуществляет брокерскую, инвестиционную или финансовую деятельность, не предлагает получение дохода и не оказывает инвестиционных консультаций.",
+      "kk": "QYZfond брокерлік, инвестициялық немесе қаржылық қызметпен айналыспайды, табыс табуды ұсынбайды және инвестициялық кеңес бермейді.",
+      "en": "QYZfond does not carry out brokerage, investment or financial activities, does not offer income opportunities and does not provide investment advice."
+    },
+    "fraud": {
+      "ru": "Если от имени фонда вам предлагают вложить деньги, приобрести ценные бумаги или криптовалюту, получить прибыль либо передать личные или финансовые данные — это мошенничество.",
+      "kk": "Егер қор атынан сізге ақша салуды, бағалы қағаздар немесе криптовалюта сатып алуды, пайда табуды не жеке немесе қаржылық деректеріңізді беруді ұсынса — бұл алаяқтық.",
+      "en": "If anyone, claiming to act for the foundation, offers you a chance to invest money, buy securities or cryptocurrency, make a profit, or asks for your personal or financial data, it is fraud."
+    },
+    "actions": {
+      "ru": "Что делать",
+      "kk": "Не істеу керек",
+      "en": "What to do"
+    },
+    "action1": {
+      "ru": "немедленно прекратить общение;",
+      "kk": "байланысты дереу тоқтатыңыз;",
+      "en": "stop communicating immediately;"
+    },
+    "action2": {
+      "ru": "не передавать личные данные;",
+      "kk": "жеке деректеріңізді бермеңіз;",
+      "en": "do not share personal data;"
+    },
+    "action3": {
+      "ru": "не переводить денежные средства третьим лицам;",
+      "kk": "үшінші тұлғаларға ақша аудармаңыз;",
+      "en": "do not transfer money to third parties;"
+    },
+    "action4": {
+      "ru": "сообщить фонду по адресу info@qyzfond.org.",
+      "kk": "бұл туралы қорға info@qyzfond.org мекенжайы бойынша хабарлаңыз.",
+      "en": "report it to the foundation at info@qyzfond.org."
+    },
+    "closing": {
+      "ru": "Фонд никого не уполномочивал представлять его в инвестиционных или финансовых вопросах.",
+      "kk": "Қор ешкімге инвестициялық немесе қаржылық мәселелерде өз атынан өкілдік етуге уәкілеттік бермеген.",
+      "en": "The foundation has not authorised anyone to represent it in investment or financial matters."
+    }
+  },
+  "ui": {
+    "nav_about": {
+      "ru": "О нас",
+      "kk": "Біз туралы",
+      "en": "About"
+    },
+    "nav_team": {
+      "ru": "Команда",
+      "kk": "Команда",
+      "en": "Team"
+    },
+    "events": {
+      "ru": "События",
+      "kk": "Іс-шаралар",
+      "en": "Events"
+    },
+    "nav_projects": {
+      "ru": "Программы",
+      "kk": "Бағдарламалар",
+      "en": "Programs"
+    },
+    "nav_reports": {
+      "ru": "Отчёты",
+      "kk": "Есептер",
+      "en": "Reports"
+    },
+    "partnership": {
+      "ru": "Партнёрам",
+      "kk": "Серіктестерге",
+      "en": "Partners"
+    },
+    "support": {
+      "ru": "Поддержать",
+      "kk": "Қолдау",
+      "en": "Support"
+    },
+    "safe": {
+      "ru": "Политика безопасности",
+      "kk": "Қауіпсіздік саясаты",
+      "en": "Safeguarding policy"
+    },
+    "offer": {
+      "ru": "Публичная оферта",
+      "kk": "Жария оферта",
+      "en": "Public offer"
+    },
+    "notice": {
+      "ru": "Уведомление",
+      "kk": "Хабарлама",
+      "en": "Notice"
+    },
+    "our_history": {
+      "ru": "Наша история",
+      "kk": "Біздің тарихымыз",
+      "en": "Our history"
+    },
+    "nearest": {
+      "ru": "Ближайшие события",
+      "kk": "Жақын іс-шаралар",
+      "en": "Upcoming events"
+    },
+    "reports": {
+      "ru": "Отчёты",
+      "kk": "Есептер",
+      "en": "Reports"
+    },
+    "same_foundation": {
+      "ru": "Мы — те же,<br/>что и всегда.",
+      "kk": "Біз — бұрынғы<br>өзімізбіз.",
+      "en": "We are who<br>we have always been."
+    },
+    "same_foundation_copy": {
+      "ru": "Больше 25 лет мы работаем как Казахстанский фонд культурного, социального и образовательного развития (KFCSED). Сегодня у нас новое имя бренда — QYZfond: QYZ — это девушка. Команда, программы и партнёрства остаются прежними.",
+      "kk": "25 жылдан астам уақыт бойы біз Қазақстандық Мәдени, Әлеуметтік және Білім Беруді Дамыту Қоры (KFCSED) ретінде жұмыс істедік. Бүгін брендтің жаңа атауы — QYZfond: QYZ — қыз. Команда, бағдарламалар мен серіктестіктер өзгерген жоқ.",
+      "en": "For more than 25 years, we have worked as the Kazakhstan Foundation for Cultural, Social and Educational Development (KFCSED). Today our brand has a new name—QYZfond: QYZ means girl. The team, programs and partnerships remain the same."
+    },
+    "team_title": {
+      "ru": "Мы строим фонд<br/>вместе.",
+      "kk": "Қорды<br>бірге құрамыз.",
+      "en": "We build the foundation<br>together."
+    },
+    "team_intro": {
+      "ru": "У каждой своя экспертиза. У всех одна задача — создавать программы, в которых опыт становится профессиональной уверенностью.",
+      "kk": "Әрқайсымыздың өз сараптамамыз бар. Ортақ міндетіміз — тәжірибе кәсіби сенімге айналатын бағдарламалар жасау.",
+      "en": "Each of us brings different expertise. We share one task: creating programs where experience becomes professional confidence."
+    },
+    "your_entry": {
+      "ru": "У каждой<br/>свой вход.",
+      "kk": "Әркімнің<br>өз жолы бар.",
+      "en": "A different entry<br>for everyone."
+    },
+    "prof_short": {
+      "ru": "Мы развиваем profidence — профессиональную уверенность: веру в то, что ты можешь применить свои знания и построить свой путь. С ней не рождаются, её нарабатывают.",
+      "kk": "Біз profidence — кәсіби сенімділікті дамытамыз: өз біліміңді қолданып, өз жолыңды құра алатыныңа деген сенім. Ол туа бітпейді, тәжірибемен қалыптасады.",
+      "en": "We develop profidence—professional confidence: the belief that you can apply your knowledge and build your own path. You are not born with it; you build it through experience."
+    },
+    "i_tech": {
+      "ru": "Я студентка, и мне интересны технологии",
+      "kk": "Мен студентпін, технологияға қызығамын",
+      "en": "I am a student interested in technology"
+    },
+    "i_comms": {
+      "ru": "Мне интересны соцсети и управление проектами",
+      "kk": "Маған әлеуметтік желілер мен жобаларды басқару қызық",
+      "en": "I am interested in social media and project management"
+    },
+    "i_business": {
+      "ru": "У меня своё дело, которое сложно совмещать с материнством",
+      "kk": "Менің ана болумен қатар алып жүру қиын өз ісім бар",
+      "en": "I run a business that is difficult to combine with motherhood"
+    },
+    "two_ways": {
+      "ru": "Два способа<br/>быть рядом.",
+      "kk": "Бірге болудың<br>екі жолы.",
+      "en": "Two ways<br>to be involved."
+    },
+    "companies": {
+      "ru": "Компаниям",
+      "kk": "Компанияларға",
+      "en": "For companies"
+    },
+    "meet_generation": {
+      "ru": "Познакомьтесь с поколением, которое завтра придёт к вам работать.",
+      "kk": "Ертең сіздерге жұмысқа келетін буынмен танысыңыздар.",
+      "en": "Meet the generation that will join your workforce tomorrow."
+    },
+    "companies_copy": {
+      "ru": "Присылайте кейсы, участвуйте в менторстве, приглашайте участниц на гостевые лекции, тренинги и стажировки.",
+      "kk": "Кейстер жіберіңіздер, тәлімгерлікке қатысыңыздар, қонақ дәрістерге, тренингтерге және тағылымдамаларға шақырыңыздар.",
+      "en": "Send us challenges, mentor participants, and invite them to guest lectures, training and internships."
+    },
+    "be_partner": {
+      "ru": "Стать партнёром →",
+      "kk": "Серіктес болу →",
+      "en": "Become a partner →"
+    },
+    "people_label": {
+      "ru": "Людям",
+      "kk": "Адамдарға",
+      "en": "For individuals"
+    },
+    "support_work": {
+      "ru": "Поддержите работу, которая превращает знания в опыт.",
+      "kk": "Білімді тәжірибеге айналдыратын жұмысты қолдаңыз.",
+      "en": "Support work that turns knowledge into experience."
+    },
+    "people_copy": {
+      "ru": "Ваш вклад идёт на исследования и реализацию программ: работу наставников, площадки, материалы и дорогу до них.",
+      "kk": "Сіздің үлесіңіз зерттеулер мен бағдарламаларға: тәлімгерлерге, алаңдарға, материалдарға және жолға жұмсалады.",
+      "en": "Your contribution funds research and programs: mentors, venues, materials and transportation."
+    },
+    "already_partner": {
+      "ru": "С нами уже работают",
+      "kk": "Бізбен қазірдің өзінде жұмыс істейді",
+      "en": "Already working with us"
+    },
+    "contact": {
+      "ru": "Контакты",
+      "kk": "Байланыс",
+      "en": "Contact"
+    },
+    "open_ideas": {
+      "ru": "Всегда открыты<br/><em>новым идеям.</em>",
+      "kk": "Жаңа идеяларға<br><em>әрдайым ашықпыз.</em>",
+      "en": "Always open to<br><em>new ideas.</em>"
+    },
+    "contact_note": {
+      "ru": "По вопросам программ, партнёрства и сотрудничества напишите нам.",
+      "kk": "Бағдарламалар, серіктестік және ынтымақтастық бойынша бізге жазыңыз.",
+      "en": "Write to us about programs, partnerships and collaboration."
+    },
+    "address": {
+      "ru": "ул. Панфилова, 145<br/>Алматы, Казахстан",
+      "kk": "Панфилов көшесі, 145<br>Алматы, Қазақстан",
+      "en": "145 Panfilov St.<br>Almaty, Kazakhstan"
+    },
+    "done_spent": {
+      "ru": "Что сделано.<br/>На что потрачено.",
+      "kk": "Не істелді.<br>Қаражат неге жұмсалды.",
+      "en": "What we did.<br>Where funding went."
+    },
+    "report_open": {
+      "ru": "Мы публикуем отчёты по каждому году. Отчёты за годы до смены имени тоже здесь.",
+      "kk": "Біз әр жыл бойынша есеп жариялаймыз. Атау өзгергенге дейінгі есептер де осында.",
+      "en": "We publish reports for every year. Reports from before the name change are here too."
+    },
+    "beneficiaries": {
+      "ru": "участниц и благополучателей",
+      "kk": "қатысушы мен игілік алушы",
+      "en": "participants and beneficiaries"
+    },
+    "partners_count": {
+      "ru": "партнёров",
+      "kk": "серіктес",
+      "en": "partners"
+    },
+    "more": {
+      "ru": "Подробнее →",
+      "kk": "Толығырақ →",
+      "en": "Learn more →"
+    },
+    "years": {
+      "ru": "лет развиваем женщин и сообщества",
+      "kk": "жыл бойы әйелдер мен қауымдастықтарды дамытамыз",
+      "en": "years empowering women and communities"
+    },
+    "report_pending": {
+      "ru": "в подготовке",
+      "kk": "дайындалуда",
+      "en": "in preparation"
+    },
+    "report_archive": {
+      "ru": "Архив по запросу ↗",
+      "kk": "Мұрағат сұрау бойынша ↗",
+      "en": "Archive on request ↗"
+    },
+    "practice": {
+      "ru": "Практика · QYZfond",
+      "kk": "Тәжірибе · QYZfond",
+      "en": "Practice · QYZfond"
+    },
+    "sdg_disclaimer": {
+      "ru": "Содержание этого сайта не утверждено ООН и не отражает позицию ООН, её должностных лиц или государств-членов.",
+      "kk": "Бұл сайттың мазмұнын БҰҰ бекітпеген және ол БҰҰ-ның, оның лауазымды тұлғаларының немесе мүше мемлекеттерінің ұстанымын білдірмейді.",
+      "en": "The content of this website has not been approved by the United Nations and does not reflect the views of the United Nations or its officials or Member States."
+    },
+    "offer_fallback": {
+      "ru": "",
+      "kk": "Жария оферта орыс тілінде берілген.",
+      "en": "The public offer is available in Russian."
+    },
+    "programs_archive": {
+      "ru": "Архив программ",
+      "kk": "Бағдарламалар мұрағаты",
+      "en": "Program archive"
+    },
+    "skip": {
+      "ru": "К содержимому",
+      "kk": "Мазмұнға өту",
+      "en": "Skip to content"
+    },
+    "meet_offline": {
+      "ru": "Встречаемся<br>не только онлайн.",
+      "kk": "Тек онлайнда<br>ғана кездеспейміз.",
+      "en": "We meet beyond<br>the screen."
+    }
+  }
+}
