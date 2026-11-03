@@ -89,7 +89,7 @@ for prefix in ("", "/ru", "/kk", "/en"):
 
 
 @app.get("/ideathon")
-async def ideathon(): return RedirectResponse("https://qyzfond.org/", status_code=307)
+async def ideathon(): return RedirectResponse("/ideathon/", status_code=308)
 
 
 @app.get("/profidence")

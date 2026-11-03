@@ -42,7 +42,7 @@ class SiteTests(unittest.TestCase):
                     self.assertTrue(images[0].startswith("https://"))
                     self.assertTrue(images[0].endswith(".jpg"))
                     internal = [a["href"] for t,a in doc.tags if t=="a" and a.get("href", "").startswith("/") and not a.get("hreflang")]
-                    self.assertTrue(all(h.startswith(f"/{lang}/") or h.startswith("/static/") for h in internal))
+                    self.assertTrue(all(h.startswith(f"/{lang}/") or h.startswith("/static/") or h == "/ideathon/" for h in internal))
 
     def test_legacy_language_links_and_kazakh_alias(self):
         for code, expected in [("en","en"),("KZ","kk"),("kk","kk"),("ru","ru"),("unknown","ru")]:
@@ -58,6 +58,12 @@ class SiteTests(unittest.TestCase):
                 self.assertIn(text,html)
             self.assertIn(CONTENT["ui"]["report_pending"][lang],html)
             self.assertNotIn('href="mailto:info@qyzfond.org?subject=Отчёт%202026"',html)
+            self.assertIn('href="/ideathon/"', html)
+
+    def test_ideathon_entry_redirects_to_trailing_slash(self):
+        response = self.client.get("/ideathon", follow_redirects=False)
+        self.assertEqual(response.status_code, 308)
+        self.assertEqual(response.headers["location"], "/ideathon/")
 
     def test_all_ten_tracks_and_five_programs(self):
         self.assertEqual(len(CONTENT["tracks"]),10)
