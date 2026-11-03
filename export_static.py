@@ -18,7 +18,7 @@ PAGES = (
     *[f"programs/{slug}" for slug in PROGRAMS],
 )
 REDIRECTS = {
-    "ideathon": "https://qyzfond.org/",
+    "ideathon": "https://qyzfond.org/ideathon/",
     "politika-bezopasnosti": "safeguarding/",
     "pozhertvovanija": "#support",
     "dinner": "gala/",

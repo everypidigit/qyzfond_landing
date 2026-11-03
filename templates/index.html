@@ -18,7 +18,7 @@
 </section>{% endif %}
 
 <section class="ideathon-v2" id="ideathon">
-  <div class="ideathon-copy"><p class="section-index">{{ c('ideathon','label') }}</p><h2>{{ c('ideathon','title') }}</h2><p>{{ c('ideathon','intro') }}</p><div class="ideathon-tracks">{% for track in content.tracks %}<span>{{ track[lang] }}</span>{% endfor %}</div><p class="ideathon-thanks">{{ c('ideathon','thanks') }}</p><a class="button" href="https://qyzfond.org/" target="_blank" rel="noreferrer">{{ c('ideathon','button') }}</a></div>
+  <div class="ideathon-copy"><p class="section-index">{{ c('ideathon','label') }}</p><h2>{{ c('ideathon','title') }}</h2><p>{{ c('ideathon','intro') }}</p><div class="ideathon-tracks">{% for track in content.tracks %}<span>{{ track[lang] }}</span>{% endfor %}</div><p class="ideathon-thanks">{{ c('ideathon','thanks') }}</p><a class="button" href="/ideathon/">{{ c('ideathon','button') }}</a></div>
   <div class="ideathon-media"><div class="ideathon-proof">{% for n,number in [(1,'882'),(2,'56'),(3,'172'),(4,'10')] %}<div><strong>{{ number }}</strong><span>{{ c('ideathon','stat'~n).split(' ',1)[1] }}</span></div>{% endfor %}</div></div>
 </section>
 
