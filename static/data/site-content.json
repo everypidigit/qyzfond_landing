@@ -253,15 +253,16 @@
     },
     {
       "name": {
-        "ru": "[имя и фамилия — как в папке]",
-        "kk": "[имя и фамилия — как в папке]",
-        "en": "[name as in the folder]"
+        "ru": "Александра",
+        "kk": "Александра",
+        "en": "Alexandra"
       },
       "role": {
-        "ru": "Координатор Örkendarium и Kumbel PRO",
-        "kk": "Örkendarium және Kumbel PRO үйлестірушісі",
-        "en": "Örkendarium and Kumbel PRO Coordinator"
-      }
+        "ru": "Координатор по обеспечению безопасности",
+        "kk": "Қауіпсіздік жөніндегі үйлестіруші",
+        "en": "Safeguarding Coordinator"
+      },
+      "published": true
     },
     {
       "name": {
@@ -282,9 +283,9 @@
         "en": "Olesya Pashakulova"
       },
       "role": {
-        "ru": "Менеджер по развитию LMS / Координатор по обеспечению безопасности",
-        "kk": "LMS дамыту менеджері / Қауіпсіздік жөніндегі үйлестіруші",
-        "en": "LMS Development Manager / Safeguarding Coordinator"
+        "ru": "Learning Experience Designer (LXD)",
+        "kk": "Learning Experience Designer (LXD)",
+        "en": "Learning Experience Designer (LXD)"
       }
     },
     {
@@ -1039,9 +1040,9 @@
       "en": "Need help?"
     },
     "help_text": {
-      "ru": "Сообщения рассматриваются конфиденциально. Свяжитесь с координатором по обеспечению безопасности или заполните форму выше.",
-      "kk": "Хабарламалар құпия түрде қаралады. Қауіпсіздік жөніндегі үйлестірушіге хабарласыңыз немесе жоғарыдағы нысанды толтырыңыз.",
-      "en": "Reports are handled confidentially. Contact our safeguarding coordinator or fill in the form above."
+      "ru": "Сообщения рассматриваются конфиденциально. Свяжитесь с Александрой — координатором по обеспечению безопасности — или заполните форму выше.",
+      "kk": "Хабарламалар құпия түрде қаралады. Қауіпсіздік жөніндегі үйлестіруші Александраға хабарласыңыз немесе жоғарыдағы нысанды толтырыңыз.",
+      "en": "Reports are handled confidentially. Contact Alexandra, our safeguarding coordinator, or fill in the form above."
     }
   },
   "notice": {

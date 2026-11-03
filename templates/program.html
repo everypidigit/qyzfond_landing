@@ -2,12 +2,12 @@
 {% block content %}
 {% set p=content.programs[slug] %}
 <section class="program-hero program-{{ program.color }}">
-  <div><p class="eyebrow light">{{ c('program_labels','label') }}</p><img class="program-logo" src="/static/images/programs/{{ slug }}-logo.{{ 'png' if slug=='mayak-pro' else 'svg' }}" alt="{{ program.name }}"><h1>{{ program.name }}</h1><p>{{ c('slogans',program.name) }}</p></div>
+  <div><p class="eyebrow light">{{ c('program_labels','label') }}</p><img class="program-logo" src="/static/images/programs/{{ slug }}-logo.{{ 'png' if slug=='mayak-pro' else 'svg' }}" alt="{{ program.name }}"><h1>{{ (program.name)|heading }}</h1><p>{{ c('slogans',program.name) }}</p></div>
   <img src="/static/images/programs/{{ slug }}.jpg" alt="{{ program.name }} · QYZfond" fetchpriority="high">
 </section>
 <section class="program-content">
   <aside><span>{{ c('program_labels','audience') }}</span><strong>{{ p.audience[lang] }}</strong><span>{{ c('program_labels','format') }}</span><strong>{{ p.format[lang] }}</strong></aside>
-  <article><h2>{{ c('program_labels','title') }}</h2><p>{{ p.description[lang] }}</p><ul class="program-facts">{% for key in ['fact1','fact2','fact3'] if key in p %}<li>{{ p[key][lang] }}</li>{% endfor %}</ul><div class="program-result"><span>{{ c('program_labels','result') }}</span><p>{{ p.result[lang] }}</p></div>
+  <article><h2>{{ (c('program_labels','title'))|heading }}</h2><p>{{ p.description[lang] }}</p><ul class="program-facts">{% for key in ['fact1','fact2','fact3'] if key in p %}<li>{{ p[key][lang] }}</li>{% endfor %}</ul><div class="program-result"><span>{{ c('program_labels','result') }}</span><p>{{ p.result[lang] }}</p></div>
     {% if slug=='orkendarium' %}<a class="button" href="https://sites.google.com/view/orkendarium-ru" target="_blank" rel="noreferrer">{{ p.button[lang] }}</a>{% else %}<a class="button" href="mailto:info@qyzfond.org?subject={{ program.name|urlencode }}">{{ c('program_labels','button') }}</a>{% endif %}
   </article>
 </section>

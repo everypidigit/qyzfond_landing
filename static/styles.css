@@ -54,3 +54,42 @@ html{overflow-x:clip;scroll-padding-top:110px}body{width:100%;max-width:100%;ove
 @media(max-width:900px){.site-header .official-brand{min-width:0}.program-hero>div{padding-right:0}.program-hero h1{font-size:min(88px,12cqw)}.archive-grid{grid-template-columns:1fr}.trustees ol{grid-template-columns:1fr}.trustees{padding-bottom:45px;margin-bottom:55px}.sdg-icons{max-width:550px}.audience-cards>article:last-child:nth-child(odd){grid-column:auto}.languages a{padding:6px 3px}.donation-actions{flex-direction:column;align-items:flex-start}.timeline{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.program-hero h1{font-size:12cqw}.sdg-icons{gap:4px}.sdg-disclaimer{font-size:8px}.archive-grid article{padding:24px}.timeline{grid-template-columns:1fr 1fr}.gala-cover{height:250px}.gala-actions{align-items:stretch!important}.footer-top .footer-logo{max-width:100%}}
 
+/* Review of 3 November: section contrast, readable SDGs and uncropped mobile photos. */
+.about-work{background:var(--paper);color:var(--ink);grid-template-columns:minmax(140px,18%) minmax(0,1fr);gap:0 4vw}
+.about-work .section-index{color:var(--navy)}
+.about-work-copy{max-width:900px}
+.about-work .sdg-block{grid-column:2;padding:0;margin-top:36px;max-width:1000px}
+.sdg-block>span{font-size:12px;letter-spacing:.1em;font-weight:700}
+.sdg-icons{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;max-width:760px}
+.sdg-source{font-size:13px;line-height:1.6}
+.about-work .sdg-disclaimer{color:#476371;font-size:12px;line-height:1.7;max-width:850px}
+.footer-logo{height:auto;width:320px;max-width:100%}
+.people-grid article>img{object-position:center top}
+.people-grid .team-initials{font-size:64px;color:var(--navy);background:#e4eff3;min-height:220px}
+.people-grid .team-no-photo>div{justify-content:center}
+.people-grid .team-no-photo p{max-width:300px}
+@media(min-width:1440px){.sdg-icons{grid-template-columns:repeat(5,minmax(0,1fr));max-width:1000px}}
+@media(max-width:900px){
+  .about-work{grid-template-columns:1fr;gap:0}
+  .about-work .sdg-block{grid-column:1;margin-top:12px}
+  .rebrand-hero{height:auto;min-height:0;padding:0;display:flex;flex-direction:column;align-items:stretch}
+  .rebrand-hero>img{position:static;width:100%;height:auto;object-fit:contain}
+  .rebrand-hero .rebrand-shade{display:none}
+  .rebrand-copy{padding:40px 24px;max-width:none}
+  .program-hero>img{height:auto;max-height:none;object-fit:contain}
+  .audience-card>img{height:100%;object-fit:contain;object-position:center top}
+  .gala-cover{height:auto;max-height:none;object-fit:contain}
+}
+@media(max-width:600px){.sdg-icons{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}
+@media(max-width:560px){
+  .people-grid article>img{height:auto;aspect-ratio:auto;object-fit:contain}
+  .people-grid .team-initials{min-height:150px}
+  .audience-card>img{height:auto;object-fit:contain}
+  .live-gallery{display:flex;flex-direction:column;gap:12px}
+  .live-gallery figure{width:100%}
+  .live-gallery img{height:auto;object-fit:contain}
+  .live-gallery figure:hover img{transform:none}
+  .live-gallery figcaption{left:10px;bottom:10px;font-size:8px}
+  .footer-top .footer-logo{height:auto;width:270px}
+}
+

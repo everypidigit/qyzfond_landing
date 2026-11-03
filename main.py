@@ -1,4 +1,5 @@
 import json
+import re
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -11,6 +12,14 @@ BASE_DIR = Path(__file__).resolve().parent
 app = FastAPI(title="QYZfond", docs_url=None, redoc_url=None)
 app.mount("/static", StaticFiles(directory=BASE_DIR / "static"), name="static")
 templates = Jinja2Templates(directory=BASE_DIR / "templates")
+
+
+def heading(value):
+    """Omit sentence-ending full stops in display headings only."""
+    return re.sub(r"\.(?=\s|<|$)", "", str(value))
+
+
+templates.env.filters["heading"] = heading
 CONTENT = json.loads((BASE_DIR / "static/data/site-content.json").read_text())
 PARTNERS = json.loads((BASE_DIR / "static/data/legacy-partners.json").read_text())
 LANGS = ("ru", "kk", "en")
@@ -53,7 +62,7 @@ def render(request: Request, template: str, **context):
     return templates.TemplateResponse(request=request, name=template, context={
         "lang":lang, "c":c, "ui":ui, "url":url, "content":CONTENT,
         "programs":PROGRAMS, "legacy_partners":PARTNERS,
-        "team":[{**p,"image":image,"linkedin":link} for p,image,link in zip(CONTENT["team"],TEAM_FILES,TEAM_LINKS) if image],
+        "team":[{**p,"image":image,"linkedin":link} for p,image,link in zip(CONTENT["team"],TEAM_FILES,TEAM_LINKS) if image or p.get("published")],
         "registration":REGISTRATION, "halyk":HALYK, "kaspi":KASPI,
         "page_path":page_path, "page_title":title,
         "public_url":origin, "canonical":f"{origin}{url('/'+page_path)}",

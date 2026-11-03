@@ -100,6 +100,33 @@ class SiteTests(unittest.TestCase):
             self.assertNotIn(f'href="/{lang}/#events"',html)
             self.assertIn('id="ideathon"',html)
 
+    def test_safeguarding_belongs_to_alexandra_and_olesya_has_lxd_role(self):
+        for lang, alexandra in [("ru", "Александра"), ("kk", "Александра"), ("en", "Alexandra")]:
+            html = self.client.get(f"/{lang}/").text
+            cards = re.findall(r"<article\b[^>]*>(.*?)</article>", html, re.S)
+            olesya_card = next(card for card in cards if 'images/team/olesya.jpg' in card)
+            self.assertIn("Learning Experience Designer (LXD)", olesya_card)
+            self.assertNotIn("Safeguarding", olesya_card)
+            self.assertNotIn("безопасности", olesya_card)
+            self.assertNotIn("Қауіпсіздік", olesya_card)
+            alexandra_card = next(card for card in cards if re.search(r"<h3>"+alexandra+r"</h3>", card))
+            self.assertIn(CONTENT["team"][7]["role"][lang], alexandra_card)
+            self.assertNotIn('linkedin.com/in/None', alexandra_card)
+            if lang == "kk":
+                for card in cards:
+                    self.assertNotIn("Координатор", card)
+                self.assertIn("үйлестіруші", alexandra_card)
+            safety = self.client.get(f"/{lang}/safeguarding/").text
+            self.assertIn("Alexandra" if lang == "en" else "Александр", safety)
+
+    def test_display_headings_have_no_sentence_full_stops(self):
+        for lang in LANGS:
+            for path in ["", "gala/", "safeguarding/", "notice/", *[f"programs/{s}/" for s in PROGRAMS]]:
+                html = self.client.get(f"/{lang}/{path}").text
+                for heading in re.findall(r"<h[1-4]\b[^>]*>(.*?)</h[1-4]>", html, re.S):
+                    text = re.sub(r"<[^>]+>", " ", heading)
+                    self.assertIsNone(re.search(r"\.(?:\s|$)", text), (lang, path, text))
+
 
 if __name__ == "__main__":
     unittest.main()
