@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 <section class="rebrand-hero">
-  <img src="/static/images/hero-img-0240.jpg" alt="QYZfond" fetchpriority="high"><div class="rebrand-shade"></div>
+  <img src="/static/images/hero-community.jpg" alt="QYZfond" fetchpriority="high"><div class="rebrand-shade"></div>
   <div class="rebrand-copy"><h1>{{ (c('hero','title')|replace('QYZfond.','<em>QYZfond.</em>'))|heading|safe }}</h1><h2>{{ (c('hero','slogan'))|heading }}</h2><p>{{ c('hero','intro') }}</p><p class="hero-brand-note">{{ c('hero','note') }}</p><div class="hero-actions"><a class="button button-light" href="#history">{{ ui('our_history') }}</a><a class="text-link light" href="#events" data-until="{{ gala_deadline }}">{{ ui('nearest') }}</a><a class="text-link light" href="#reports">{{ ui('reports') }}</a></div></div>
   <div class="rebrand-stamp"><span>1999</span><span>→</span><strong>2026</strong></div>
 </section>

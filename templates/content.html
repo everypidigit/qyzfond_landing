@@ -4,7 +4,7 @@
 <section class="inner-hero"><p class="eyebrow light">{{ c('notice','label') if page=='notice' else c('gala','label') if page=='gala' else c('safety','label') }}</p><h1>{{ (ui('offer') if page=='oferta' else c(section,'title'))|heading }}</h1></section>
 <section class="inner-content">
 {% if page=='gala' %}
-  <img class="gala-cover" src="/static/images/hero-community.jpg" alt="QYZfond" fetchpriority="high">
+  <img class="gala-cover" src="/static/images/hero-img-0240.jpg" alt="QYZfond" fetchpriority="high">
   <div class="gala-intro"><span>{{ c('gala','concept') }}</span><h2>{{ (c('gala','date'))|heading }}</h2><p>{{ c('gala','intro') }}</p><div class="gala-facts">{% for key in ['fact1','fact2','fact3'] %}<div><strong>{{ c('gala',key).rsplit(' · ',1)[0] }}</strong><span>{{ c('gala',key).rsplit(' · ',1)[1] }}</span></div>{% endfor %}</div></div>
   <div class="gala-details"><div class="gala-program"><h2>{{ (c('gala','programme'))|heading }}</h2><div>{% for n in range(1,5) %}{% set item=c('gala','item'~n).split(' — ',1) %}<article><span>0{{ n }}</span><h3>{{ (item[0])|heading }}</h3><p>{{ item[1] }}</p></article>{% endfor %}</div></div>
   <div class="gala-menu"><h2>{{ (c('gala','menu'))|heading }}</h2>{% for course in ['Aperitivo','Antipasto','Primi','Secondi','Dolce'] %}<p><b>{{ course }}</b> · {{ c('gala',course) }}</p>{% endfor %}</div></div>
