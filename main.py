@@ -30,8 +30,8 @@ PROGRAMS = {
     "mayak-pro": {"name": "Mayak PRO", "color": "purple", "question": "mayak_pro_question"},
     "orkendarium": {"name": "Örkendarium", "color": "pink", "question": "i_business"},
 }
-TEAM_FILES = ["maria-javier", "aigerim", "maria-asinskaya", "zhanna", "zhanel", "ulpan", "aruzhan", None, None, "olesya", "kristina", "maria-helena", "yana"]
-TEAM_LINKS = ["maria-javier-brugarolas", "aigerim-kubeyeva-57307a138", "mariya-asinskaya-msc-0ba943b0", "zhanna-tsoy-10218642", "zhanel-s-73356b1b7", "ulpan-yerzhanova-309063264", "aruzhankani", None, None, "olesya-pashakulova-0359ba8a", "кристина-крылова-b21894405", "mhravera", "yanakochshuk"]
+TEAM_FILES = ["maria-javier", "aigerim", "maria-asinskaya", "zhanna", "zhanel", "ulpan", "aruzhan", "alexandra", "gaukhar", "olesya", "kristina", "maria-helena", "yana"]
+TEAM_LINKS = ["maria-javier-brugarolas", "aigerim-kubeyeva-57307a138", "mariya-asinskaya-msc-0ba943b0", "zhanna-tsoy-10218642", "zhanel-s-73356b1b7", "ulpan-yerzhanova-309063264", "aruzhankani", "alexandra-krashinina-bba8123a0", "gaukhar-urazalinova-0b7819399", "olesya-pashakulova-0359ba8a", "кристина-крылова-b21894405", "mhravera", "yanakochshuk"]
 REGISTRATION = "https://docs.google.com/forms/d/162aYKKHlEVZApIIo8_PH3OX20vvvf_s_baO0P6HAy44/viewform"
 HALYK = "https://homebank.kz/payments/ofKfksor-blagotvoriteljnostj"
 KASPI = "https://kaspi.kz/pay/kazfondksor"

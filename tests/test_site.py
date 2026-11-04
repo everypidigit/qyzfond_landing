@@ -101,7 +101,7 @@ class SiteTests(unittest.TestCase):
             self.assertIn('id="ideathon"',html)
 
     def test_safeguarding_belongs_to_alexandra_and_olesya_has_lxd_role(self):
-        for lang, alexandra in [("ru", "Александра"), ("kk", "Александра"), ("en", "Alexandra")]:
+        for lang, alexandra in [("ru", "Крашинина Александра"), ("kk", "Крашинина Александра"), ("en", "Alexandra Krashinina")]:
             html = self.client.get(f"/{lang}/").text
             cards = re.findall(r"<article\b[^>]*>(.*?)</article>", html, re.S)
             olesya_card = next(card for card in cards if 'images/team/olesya.jpg' in card)
@@ -112,6 +112,12 @@ class SiteTests(unittest.TestCase):
             alexandra_card = next(card for card in cards if re.search(r"<h3>"+alexandra+r"</h3>", card))
             self.assertIn(CONTENT["team"][7]["role"][lang], alexandra_card)
             self.assertNotIn('linkedin.com/in/None', alexandra_card)
+            self.assertIn('images/team/alexandra.jpg', alexandra_card)
+            self.assertIn('linkedin.com/in/alexandra-krashinina-bba8123a0/', alexandra_card)
+            gaukhar_card = next(card for card in cards if 'images/team/gaukhar.jpg' in card)
+            self.assertIn("Gaukhar Urazalinova" if lang == "en" else "Уразалинова Гаухар", gaukhar_card)
+            self.assertIn('linkedin.com/in/gaukhar-urazalinova-0b7819399/', gaukhar_card)
+            self.assertIn('Mayak PRO', gaukhar_card)
             if lang == "kk":
                 for card in cards:
                     self.assertNotIn("Координатор", card)

@@ -253,27 +253,27 @@
     },
     {
       "name": {
-        "ru": "Александра",
-        "kk": "Александра",
-        "en": "Alexandra"
+        "ru": "Крашинина Александра",
+        "kk": "Крашинина Александра",
+        "en": "Alexandra Krashinina"
       },
       "role": {
-        "ru": "Координатор по обеспечению безопасности",
-        "kk": "Қауіпсіздік жөніндегі үйлестіруші",
-        "en": "Safeguarding Coordinator"
+        "ru": "Координатор проекта Kumbel PRO / Координатор по обеспечению безопасности / Координатор сообщества Örkendarium",
+        "kk": "Kumbel PRO жобасының үйлестірушісі / Қауіпсіздікті қамтамасыз ету жөніндегі үйлестіруші / Örkendarium қауымдастығының үйлестірушісі",
+        "en": "Kumbel PRO Project Coordinator / Safeguarding Coordinator / Örkendarium Community Coordinator"
       },
       "published": true
     },
     {
       "name": {
-        "ru": "Гаухар [фамилия — в папке]",
-        "kk": "Гаухар [фамилия — в папке]",
-        "en": "Gaukhar [surname]"
+        "ru": "Уразалинова Гаухар",
+        "kk": "Уразалинова Гаухар",
+        "en": "Gaukhar Urazalinova"
       },
       "role": {
-        "ru": "Координатор Mayak PRO",
-        "kk": "Mayak PRO үйлестірушісі",
-        "en": "Mayak PRO Coordinator"
+        "ru": "Координатор проекта Mayak PRO",
+        "kk": "Mayak PRO жобасының үйлестірушісі",
+        "en": "Project Coordinator, Mayak PRO"
       }
     },
     {
@@ -1040,9 +1040,9 @@
       "en": "Need help?"
     },
     "help_text": {
-      "ru": "Сообщения рассматриваются конфиденциально. Свяжитесь с Александрой — координатором по обеспечению безопасности — или заполните форму выше.",
-      "kk": "Хабарламалар құпия түрде қаралады. Қауіпсіздік жөніндегі үйлестіруші Александраға хабарласыңыз немесе жоғарыдағы нысанды толтырыңыз.",
-      "en": "Reports are handled confidentially. Contact Alexandra, our safeguarding coordinator, or fill in the form above."
+      "ru": "Сообщения рассматриваются конфиденциально. Свяжитесь с Александрой Крашининой — координатором по обеспечению безопасности — или заполните форму выше.",
+      "kk": "Хабарламалар құпия түрде қаралады. Қауіпсіздік жөніндегі үйлестіруші Александра Крашининаға хабарласыңыз немесе жоғарыдағы нысанды толтырыңыз.",
+      "en": "Reports are handled confidentially. Contact Alexandra Krashinina, our safeguarding coordinator, or fill in the form above."
     }
   },
   "notice": {
